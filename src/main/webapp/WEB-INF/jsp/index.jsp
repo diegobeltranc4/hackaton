@@ -104,7 +104,7 @@
 			</section>
 			
 			<!-- Footer -->
-			<footer class="text-center text-lg-start bg-success text-muted text-dark bg-opacity-25">
+			<footer class="text-center text-lg-start bg-success text-dark bg-opacity-25">
 			  	
 			  <!-- Section: Links  -->
 			  <section class="pt-1">
@@ -143,8 +143,7 @@
 			          </h6>
 			          <p><i class="fa fa-map-marker me-3"></i> Bogotá D.C.</p>
 			          <p>
-			            <i class="fa fa-envelope me-3"></i>
-			            cumpliendosueno2021@outlook.com
+			            <i class="fa fa-envelope me-3"></i> cumpliendosueno2021@outlook.com
 			          </p>
 			          <p><i class="fa fa-phone me-3"></i> (+57 1) 321 200 8765</p>
 			        </div>
@@ -156,9 +155,7 @@
 			  <!-- Section: Links  -->
 			  
 			  <!-- Section: Social media -->
-			  <section
-			    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-			  >
+			  <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
 			    <!-- Left -->
 			    <div class="me-5 d-none d-lg-block">
 			      <span>Síguenos por nuestras redes sociales</span>
@@ -166,15 +163,16 @@
 			    <!-- Left -->
 			
 			    <!-- Right -->
-			    <div id="socialMedia">
-			      <a href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal" class="me-4 text-reset">
-			        <i class="fa fa-facebook-square"></i>
+			    <div id="socialMedia" class="row">
+			      
+			      <a href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal" class="col text-reset">
+			        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
 			      </a>
-			      <a href="https://twitter.com/Cumpliendosue21" class="me-4 text-reset">
-			        <i class="fa fa-twitter"></i>
+			      <a href="https://twitter.com/Cumpliendosue21" class="col text-reset">
+			        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 			      </a>
-			      <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg" class="me-4 text-reset">
-			        <i class="fa fa-youtube"></i>
+			      <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg" class="col text-reset">
+			        <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
 			      </a>
 			    </div>
 			    <!-- Right -->
