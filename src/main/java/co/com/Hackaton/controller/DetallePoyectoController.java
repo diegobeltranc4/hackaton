@@ -8,18 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("editor")
+@RequestMapping("detalleProyecto")
 public class DetallePoyectoController {
 	
 	@GetMapping
-	public String mostrarLogin(HttpServletRequest request){
-		
-		Object aux = request.getAttribute("nombre");
-		 
-		if(aux != null) {
-			return "editorProyecto";
-		}else {
-			return "login";
-		}
+	public String mostrarDetalle(HttpServletRequest request){
+		return "detalleProyecto";
 	}
 }
