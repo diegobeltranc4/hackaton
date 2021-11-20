@@ -34,6 +34,12 @@ public class Usuario implements Serializable{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	public int getIdentificacion() {
+		return identificacion;
+	}
+	public void setIdentificacion(int identificacion) {
+		this.identificacion = identificacion;
+	}
 	public String getEmail() {
 		return email;
 	}
@@ -64,10 +70,12 @@ public class Usuario implements Serializable{
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Usuario(long id, String nombre, String email, int telefono, int edad, String username, String password) {
+	public Usuario(long id, String nombre, int identificacion, String email, int telefono, int edad, String username,
+			String password) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
+		this.identificacion = identificacion;
 		this.email = email;
 		this.telefono = telefono;
 		this.edad = edad;
@@ -78,7 +86,6 @@ public class Usuario implements Serializable{
 		super();
 	}
 	
-	private static final long serialVersionUID = 1L;
 	 
 	
 }

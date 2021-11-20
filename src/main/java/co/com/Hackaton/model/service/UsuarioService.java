@@ -4,5 +4,5 @@ import co.com.Hackaton.model.entity.Usuario;
 
 public interface UsuarioService {
 	public Usuario findByUsername(String username);
-	public Usuario registrarUsuario(Usuario u);
+	public void registrarUsuario(Usuario u);
 }

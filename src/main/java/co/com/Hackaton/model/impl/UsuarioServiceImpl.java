@@ -23,9 +23,9 @@ public class UsuarioServiceImpl implements UsuarioService{
 	}
 
 	@Override
-	public Usuario registrarUsuario(Usuario u) {
+	public void registrarUsuario(Usuario u) {
 		u.setPassword(passwordEncoder.encode(u.getPassword()));
-		return usuarioDao.save(u);
+		usuarioDao.save(u);
 	}
 
 }
