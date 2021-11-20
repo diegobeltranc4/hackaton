@@ -73,8 +73,9 @@ body {
 
 .login-box input[type="submit"]:hover {
   cursor: pointer;
-  background: #87CEEB;
-  color: #000;
+  background-color: #ffffff;
+  opacity: 0,5;
+  color: #324c6e;
 }
 
 .login-box a {
@@ -96,10 +97,15 @@ margin-bottom: 20px;
 }
 
 .textos a {
-	color: #5cbeb7;
+	color: #136F63;
 	font-size: 20px;
 	align-content: center;
 }
+.textos a:hover {
+	color: #136F63;
+	
+}
+
 
 .alert {
 	position: absolute
