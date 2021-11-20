@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF8">
 <title>Cumpliendo Sueños</title>
+<link rel="stylesheet" href="css/perfilStyle.css">
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -26,40 +27,49 @@
 
 </head>
 <body>
-	<header class="navbar navbar-expand-lg navbar-light bg-light"
-		style="overflow: visible;">
+	<header class="navbar navbar-expand-lg navbar-light bg-light" style="overflow: visible;">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"> <img
-				alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170"
-				height="170">
+			<a href="#" class="navbar-brand">
+				<img alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170" height="170">
 			</a>
-			<button class="navbar-toggler ml-5" type="button"
-				data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
+			<button class="navbar-toggler ml-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a href="#"><i
-							class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a></li>
-					<li class="nav-item"><a href="buscador"><i
-							class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a></li>
-					<li class="nav-item dropdown"><a class=" dropdown-toggle"
-						href="#" id="navbarDropdown" role="button"
-						data-bs-toggle="dropdown" aria-expanded="false"> <i
-							class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
-					</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
-							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
-							<!-- <li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
-						</ul></li>
+					<li class="nav-item">
+						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Mis Proyectos</a>
+					</li>
+					<li class="nav-item">
+						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+					</li>
+					<li class="nav-item ">
+						<div class=" alin2 dpgl">
+						    <button class="dropbtn"><img class="avatar" alt="" src="img/p2.jpg">
+						      ${user} <i class="fa fa-caret-down"> </i>		
+						    </button>		
+						    <div class="dpgl-content">
+						      <div class="carta">
+						      <br>
+						  <img src="img/p2.jpg" alt="John" style="width:60%; border-radius: 3%;">
+						  <h1>Alx-Bart</h1>
+						  <p class="title">CEO & Founder, Example</p>
+						  <p>Harvard University</p>
+						  <i class="fa fa-dribbble"></i> 
+						    <i class="fa fa-twitter"></i>
+						    <i class="fa fa-linkedin"></i> 
+						    <i class="fa fa-facebook"></i>
+						</div>
+						    </div>
+						  </div> 
+					</li>
+					<li class="nav-item">
+						<a href="login"><i class="fa fa-fw  fa-power-off"></i> Cerrar sesión</a>
+					</li>
 				</ul>
 			</div>
 		</div>
-	</header>
+	</header>	
 	<section>
 		<div class="row justify-content-center my-3">
 			<div class="col-md-6 ">
