@@ -7,5 +7,5 @@ import co.com.Hackaton.model.entity.Usuario;
 
 @Repository
 public interface UsuarioDAO extends JpaRepository<Usuario, Long>{
-	public Usuario findByUsername(String username);
+	//public Usuario findByUsername(String username);
 }

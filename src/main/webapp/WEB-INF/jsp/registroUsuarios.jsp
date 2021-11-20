@@ -21,7 +21,7 @@
 				<div class="card">
 					<article style="background-color: #ADAFB1" class="card-body"></article>
 					<h2 style="color: #5cbeb7" class="py-3">Regístrate</h2>
-					<form class="form-inline">
+					<form action="registroUsuarios"  method="post" class="form-inline">
 
 						<div class="row g-3 my-1 mx-1">
 							<div class="col-6 form-group ">
@@ -64,12 +64,12 @@
 						</div>
 						<div class="row g-3 my-1 mx-1">
 							<div class="col-6 form-group">
-								<input name="contraseña" class="form-control" type="password"
+								<input name="password" class="form-control" type="password"
 									placeholder="Contraseña" required>
 							</div>
 							<!-- form-group end.// -->
 							<div class="col-6 form-group">
-								<input name="confircontra" class="form-control" type="password"
+								<input name="conpassword" class="form-control" type="password"
 									placeholder="Confirme su contraseña" required>
 							</div>
 							<!-- form-group end.// -->
