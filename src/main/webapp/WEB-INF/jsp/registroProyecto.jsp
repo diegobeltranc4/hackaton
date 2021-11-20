@@ -198,10 +198,10 @@
 						<!-- Links -->
 						<h6 class="text-uppercase fw-bold mb-4">Links</h6>
 						<p>
-							<a href="#!" class="text-reset">Términos y Condiciones</a>
+							<a href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing" class="text-reset">Términos y Condiciones</a>
 						</p>
 						<p>
-							<a href="#!" class="text-reset">Tratamiento de datos</a>
+							<a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing" class="text-reset">Tratamiento de datos</a>
 						</p>
 						<p>
 							<a
