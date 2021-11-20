@@ -8,14 +8,20 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import co.com.Hackaton.model.dao.UsuarioDAO;
 import co.com.Hackaton.model.entity.Usuario;
-import co.com.Hackaton.model.service.UsuarioService;
+//import co.com.Hackaton.model.service.UsuarioService;
 
 @Controller
 public class RegistroController {
 
+	/*
 	@Autowired
 	private UsuarioService usuarioService;
+	*/
+	
+	@Autowired
+	private UsuarioDAO usuarioDao;
 	
 	@GetMapping("/registroUsuarios")
 	public String registroForm(Model model) {
@@ -45,10 +51,10 @@ public class RegistroController {
 			usaux.setUsername(request.getParameter("usaurio"));
 			usaux.setIdentificacion(ident);
 			
-			System.out.println("usuario creado"+usaux);
-			
 			//Usuario usver = 
-			usuarioService.registrarUsuario(usaux);
+			//usuarioService.registrarUsuario(usaux);
+			
+			usuarioDao.save(usaux);
 			
 			return "registroUsuarios";
 			
