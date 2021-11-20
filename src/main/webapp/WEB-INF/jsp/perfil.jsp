@@ -69,9 +69,9 @@
 <br>
 
 <div style=" text-align:center;">
-	<button style="width: 49%" class="btn btn-secondary" onclick="filterSelection('Emprendedor')"><i class="fa fa-fw  fa-line-chart"></i>  Emprendedor </button>
+	<button style="width: 49%" class="rp btn btn-secondary" onclick="filterSelection('Emprendedor')"><i class="fa fa-fw  fa-line-chart"></i>  Emprendedor </button>
 	<button class="btn" style="width: 2%"></button>
-  	<button style="width: 49%"  class="btn btn-secondary" onclick="filterSelection('Inversionista')"> <i class="fa fa-fw  fa-money"></i> Inversionista</button>
+  	<button style="width: 49%"  class=" rp btn btn-secondary" onclick="filterSelection('Inversionista')"> <i class="fa fa-fw  fa-money"></i> Inversionista</button>
 </div>
 
 <br>
