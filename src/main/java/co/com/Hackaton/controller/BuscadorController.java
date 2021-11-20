@@ -1,16 +1,15 @@
-package co.com.Hackaton.Controller;
+package co.com.Hackaton.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-
 @Controller
-@RequestMapping("/")
-public class InicioController {
+@RequestMapping("buscador")
+public class BuscadorController {
 	
 	@GetMapping
-	public String inicio() {
-		return "index";
+	public String mostrarLogin(){
+		return "buscador";
 	}
 }
