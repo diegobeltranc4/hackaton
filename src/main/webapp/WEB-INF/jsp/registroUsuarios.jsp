@@ -4,12 +4,20 @@
 <html>
 <head>
 <meta charset="UTF8">
+<title>Registro de Usuario</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <scrip src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="../css/footerStyleCp.css">
-<link rel="stylesheet" href="../css/RegisterCp.css">
+<link rel="stylesheet" href="../css/RegisterUsuarios.css">
+<link rel="stylesheet" href="../css/navStyleCp.css">
+
 
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
@@ -78,8 +86,8 @@
 						<!-- form-group// -->
 						<article style="background-color: #ADAFB1" class="card-body">
 							<small class="text-white">Al hacer clic en el botón
-								confirma que acepta nuestros Términos de uso y Política de
-								privacidad</small>
+								confirma que acepta nuestros<a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing"> Términos de uso y Política de
+								privacidad</a></small>
 						</article>
 					</form>
 
@@ -88,6 +96,8 @@
 
 		</div>
 	</section>
+
+
 
 	<footer
 		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
@@ -101,9 +111,8 @@
 					<div class="col-md-4 mb-md-0 mb-3">
 						<!-- Links -->
 						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
-						<p align="left">Busca conectar emprendedores con socios e
-							inversionistas para que se puedan poner en marcha toda clase de
-							ideas de negocios y hacer realidad los sueños de muchas personas.
+						
+						<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de ideas de negocios y hacer realidad los sueños de muchas personas.
 						</p>
 					</div>
 					<!-- Grid column -->
@@ -185,6 +194,5 @@
 		<!-- Copyright -->
 	</footer>
 	<!-- Footer -->
-
 </body>
 </html>

@@ -105,6 +105,14 @@
 							</div>
 							<!-- form-group end.// -->
 						</div>
+						<div>
+						<div class="row g-3 my-1 mx-2">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Inserta la URL de la imagen de tu proyecto">
+						</div>
+						</div>
+						
+						
 						<div class="row g-3 my-1 mx-2">
 							<div class="form-group col-md-12" id="editor">
 								<!-- ESTO ES PARA EL EDITOR DE TEXTO -->
@@ -124,8 +132,7 @@
 											<input class="form-check-input" type="checkbox" value=""
 												id="invalidCheck2" required> <label
 												class="form-check-label" for="invalidCheck2"> <small>Al
-													hacer clic en el botón confirma que acepta nuestros <a
-													href="#!">Términos de uso y Política de privacidad.</a>
+													hacer clic en el botón confirma que acepta nuestros <a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing">Términos de uso y Política de privacidad.</a>
 											</small>
 											</label>
 										</div>
