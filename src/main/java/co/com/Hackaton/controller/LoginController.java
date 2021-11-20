@@ -25,7 +25,7 @@ public class LoginController {
 	private UsuarioDAO usuarioDao;
 	
 	@GetMapping("login")
-	public String loginForm(Model model) {
+	public String loginForm(Model model, HttpServletRequest request) {
 		model.addAttribute("usuario",new Usuario());
 		
 		return "login";
@@ -42,9 +42,7 @@ public class LoginController {
 		for(Usuario usuarioTem : usuarios) {
 			if(usuario.equals(usuarioTem.getUsername()) && password.equals(usuarioTem.getPassword())) {
 				HttpSession session = request.getSession(true);
-				session.setAttribute("nombre", usuarioTem.getNombre());
-				session.setAttribute("usuario", usuarioTem.getUsername());
-				
+				session.setAttribute("usuario", usuario);
 				return "buscador";
 			}
 		}

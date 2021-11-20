@@ -13,14 +13,9 @@ public class PerfilController {
 	@GetMapping
 	public String inicio(HttpServletRequest request) {
 		
-		Object aux = request.getAttribute("nombre");
-		 
-		if(aux != null) {
-			return "perfil";
-		}else {
-			return "login";
-		}
+		return "perfil";
 		
-	}
+		//traer usuario de sesión*/
 	
+	}
 }
