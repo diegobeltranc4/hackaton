@@ -16,7 +16,7 @@
 <body> 
 
 	${alerta}
-	<div class='alert alert-danger alert-dismissable' role='alert'>Usuario o contraseña erroneos, intente nuevamente.</div>
+	<!-- <div class='alert alert-danger alert-dismissable' role='alert'>Usuario o contraseña erroneos, intente nuevamente.</div>  -->
 	<br>
 	<h1 align="center" style="color:#e0a500;"> BIENVENIDOS </h1>
 	
