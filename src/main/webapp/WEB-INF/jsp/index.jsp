@@ -26,10 +26,10 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
+						<a href="registroProyecto"><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
 					</li>
 					<li class="nav-item">
-						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+						<a href="buscador"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
