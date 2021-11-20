@@ -28,10 +28,10 @@
 		<form action="" method="post">
 			<!-- USERNAME INPUT -->
 			<label for="user" style="color:#e0a500; font-size: 150%"><i class="fa fa-fw fa-user-circle"></i>Usuario</label>
-			<input  type="text" name="user">
+			<input  type="text" name="username">
 			<!-- PASSWORD INPUT -->
 			<label for="contraseña" style="color:#e0a500; font-size: 150%"><i class="fa fa-fw fa-unlock-alt"></i>Contraseña</label>
-			<input  type="password" name="pass" >
+			<input  type="password" name="password" >
 			<!-- <div class="form-group"></div>  -->
 			<br>
 			<!--button type="submit" class="btn btn-primary"  name="crear">ingresar</button-->
