@@ -1,4 +1,4 @@
-package co.com.Hackaton.Controller;
+package co.com.Hackaton.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
