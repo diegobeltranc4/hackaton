@@ -137,7 +137,7 @@ button:hover, a:hover {
 
 /* Center website */
 .mani {
-  width:100%;
+  width:98%;
   margin: 2vh;
 }
 
@@ -153,13 +153,13 @@ h1 {
 /* Add padding BETWEEN each column */
 .fila,
 .fila > .columna {
-  padding: 8px;
+  padding: 2vh;
 }
 
 /* Create three equal columns that floats next to each other */
 .columna {
   float: left;
-  width: 25%;
+  width: 20%;
   display: none; /* Hide all elements by default */
 }
 
@@ -173,7 +173,7 @@ h1 {
 /* Content */
 .content {
   background-color: white;
-  padding: 2vh;
+  padding: 1vh;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -198,4 +198,41 @@ h1 {
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+
+#form {
+  width: 2vh;
+  margin: 0 auto;
+  height: 50vh;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20vh;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
 }
