@@ -90,7 +90,7 @@
 						<!-- form-group// -->
 						<article style="background-color: #ADAFB1" class="card-body">
 							<small class="text-white">Al hacer clic en el botón
-								confirma que acepta nuestros<a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing"> Términos de uso y Política de
+								confirma que acepta nuestros <a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing"> Términos de uso y Política de
 								privacidad</a></small>
 						</article>
 					</form>
@@ -106,7 +106,7 @@
 
 
 	<footer
-		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
+		class="text-center text-lg-start text-dark">
 
 		<!-- Section: Links  -->
 		<section class="pt-1">
@@ -184,7 +184,7 @@
 					aria-hidden="true"></i>
 				</a> <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg"
 					class="col text-reset"> <i class="fa fa-youtube fa-2x"
-					aria-hidden="true"></i>
+					aria-hidden		="true"></i>
 				</a>
 			</div>
 			<!-- Right -->
@@ -194,7 +194,7 @@
 		<!-- Copyright -->
 		<div class="text-center p-4"
 			style="background-color: rgba(0, 0, 0, 0.05);">
-			© 2021 Copyright: <a class="text-reset fw-bold"
+			© 2021 Copyright <a class="text-reset fw-bold"
 				href="https://mdbootstrap.com/"></a>
 		</div>
 		<!-- Copyright -->
