@@ -106,7 +106,7 @@ background-image: url(../img/bg2.svg);
 
 
 button {
-	float:right;
+  float:right;
   border: none;
   outline: 0;
   display: inline-block;

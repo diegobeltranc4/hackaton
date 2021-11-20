@@ -23,6 +23,10 @@
 <link rel="stylesheet" href="../css/footerStyleCp.css">
 <link rel="stylesheet" href="../css/navStyleCp.css">
 <link rel="stylesheet" href="../css/RegisterCp.css">
+<link rel="stylesheet" href="../css/detalleStyle.css">
+<link rel="stylesheet" href="../css/perfilStyle.css">
+
+
 
 </head>
 <body>
@@ -41,21 +45,31 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a href="#"><i
-							class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a></li>
-					<li class="nav-item"><a href="buscador"><i
+					<li class="nav-item"><a href=clientes><i
+							class="fa fa-fw fa-suitcase fa-1x"></i> Mis Proyectos</a></li>
+					<li class="nav-item"><a href="proveedores"><i
 							class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a></li>
-					<li class="nav-item dropdown"><a class=" dropdown-toggle"
-						href="#" id="navbarDropdown" role="button"
-						data-bs-toggle="dropdown" aria-expanded="false"> <i
-							class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
-					</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
-							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
-							<!-- <li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
-						</ul></li>
+					<li class="nav-item ">
+						<div class=" alin2 dpgl">
+							<button class="dropbtn">
+								<img class="avatar" alt="" src="img/p2.jpg"> ${user} <i
+									class="fa fa-caret-down"> </i>
+							</button>
+							<div class="dpgl-content">
+								<div class="carta">
+									<br> <img src="img/p2.jpg" alt="John"
+										style="width: 60%; border-radius: 3%;">
+									<h1>Alx-Bart</h1>
+									<p class="title">CEO & Founder, Example</p>
+									<p>Harvard University</p>
+									<i class="fa fa-dribbble"></i> <i class="fa fa-twitter"></i> <i
+										class="fa fa-linkedin"></i> <i class="fa fa-facebook"></i>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item"><a href="login"><i
+							class="fa fa-fw  fa-power-off"></i> Cerar sesion</a></li>
 				</ul>
 			</div>
 		</div>
@@ -168,8 +182,7 @@
 					<div class="col-md-4 mb-md-0 mb-3">
 						<!-- Links -->
 						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
-						<p align="left">Busca conectar emprendedores con socios e
-							inversionistas para que se puedan poner en marcha toda clase de
+						<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de
 							ideas de negocios y hacer realidad los sueños de muchas personas.
 						</p>
 					</div>
@@ -178,7 +191,7 @@
 					<!-- Grid column -->
 					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 						<!-- Links -->
-						<h6 class="text-uppercase fw-bold mb-4">Links</h6>
+						<h6 class="text-uppercase fw-bold mb-4" >Links</h6>
 						<p>
 							<a href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing" class="text-reset">Términos y Condiciones</a>
 						</p>

@@ -15,12 +15,14 @@ public class BuscadorController {
 	@GetMapping
 	public String mostrarLogin(HttpServletRequest request){
 		
-		Object aux = request.getAttribute("nombre");
+		return "/buscador";
+		
+		/*Object aux = request.getAttribute("nombre");
 		 
 		if(aux != null) {
-			return "buscador";
+			return "/buscador";		
 		}else {
-			return "login";
-		}
+			return "/login";			
+		}*/
 	}
 }

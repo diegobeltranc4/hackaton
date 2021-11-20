@@ -8,24 +8,19 @@
 <meta charset="UTF8">
 <title>Nosotros</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="../img/lg2.png">
+
 <link rel="shortcut icon" type="image/png" href="img/lg2.png">
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	crossorigin="anonymous">
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	crossorigin="anonymous"></script>
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../css/contactaStyle.css">
 <link rel="stylesheet" href="../css/navStyleCp.css">
+<link rel="stylesheet" href="../css/footerStyleCp.css">
 </head>
 <body>
 	<header class="navbar navbar-expand-lg navbar-light bg-light"
@@ -74,25 +69,24 @@
 			</div>
 			<div class="col-6">
 				<form action="contactanos" method="Post">
-					<label for="fname">Nombre Completo</label> <input type="text"
-						id="fname" name="firstname" placeholder="Nombre Completo..">
-					<label for="lname">Correo electrónico</label> <input type="text"
-						id="lname" name="lastname" placeholder="Correo electrónico..">
-					<label for="country">Pais</label> <select id="country"
-						name="country">
-						<option value="australia">Colombia</option>
+					
+					<input type="text" id="fname" name="firstname" placeholder="Nombre Completo">
+					<input type="text" id="lname" name="lastname" placeholder="Correo electrónico..">
+					<select id="country" name="country">
+					<option selected disabled value="">Selecciona el país...</option>
+						<option value="colombia">Colombia</option>
 						<option value="canada">Canada</option>
 						<option value="usa">USA</option>
-					</select> <label for="subject">Mensaje</label>
-					<textarea id="subject" name="subject" placeholder="Escribe algo.."
+					</select>
+					<textarea id="subject" name="subject" placeholder="Escribe tus dudads o inquietudes"
 						style="height: 170px"></textarea>
-					<input type="submit" value="Enviar">
+					<button name="proyecto" id="proyecto" class="btn btn-warning btn-block regular-button">Enviar</button>
 				</form>
 			</div>
 		</div>
 	</div>
 	<footer
-		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
+		class="text-center text-lg-start text-dark">
 
 		<!-- Section: Links  -->
 		<section class="pt-1">
@@ -103,8 +97,7 @@
 					<div class="col-md-4 mb-md-0 mb-3">
 						<!-- Links -->
 						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
-						<p align="left">Busca conectar emprendedores con socios e
-							inversionistas para que se puedan poner en marcha toda clase de
+						<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de
 							ideas de negocios y hacer realidad los sueños de muchas personas.
 						</p>
 					</div>
@@ -185,12 +178,14 @@
 		<!-- Copyright -->
 		<div class="text-center p-4"
 			style="background-color: rgba(0, 0, 0, 0.05);">
-			© 2021 Copyright: <a class="text-reset fw-bold"
+			© 2021 Copyright: Cumpliendo Sueños<a class="text-reset fw-bold"
 				href="https://mdbootstrap.com/"></a>
 		</div>
 		<!-- Copyright -->
 	</footer>
 
+		
 
 </body>
+
 </html>
