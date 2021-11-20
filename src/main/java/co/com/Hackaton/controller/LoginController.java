@@ -22,12 +22,12 @@ public class LoginController {
 	public String login(Model modelo) {
 		modelo.addAttribute("usuario",new Usuario());
 		
-		return "login";	
+		return "login";
 	}
 	
 	@GetMapping("/registroUsuarios")
 	public String registroForm(Model model) {
-		model.addAttribute("usuario",new Usuario());
+		model.addAttribute("usuario", new Usuario());
 		
 		return "registroUsuarios";
 	}
