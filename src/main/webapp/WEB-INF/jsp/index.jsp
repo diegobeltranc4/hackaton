@@ -36,7 +36,7 @@
 							<i class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
 							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
 							<!-- <li><hr class="dropdown-divider"></li>
 							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
@@ -60,7 +60,7 @@
 						<div class="card-body">
 							<h2>Agro Ciervo</h2>
 							<p class="title">Agro</p>
-							<p>Tecnicas especializadas en crianza...</p>
+							<p>Técnicas especializadas en crianza...</p>
 							<p>jane@example.com</p>
 							<p><button class="button" style="width:auto">Leer más.</button></p>
 						</div>
@@ -72,8 +72,8 @@
 						<img src="img/p2.jpg" alt="Mike" class="card-img-top">
 						<div class="card-body">
 							<h2>Aprende En Casa</h2>
-							<p class="title">Educacion</p>
-							<p>Estrategias de aprendizaje autodidacta en casa...</p>
+							<p class="title">Educación</p>
+							<p>Estrategias de aprendizaje autodidácta en casa...</p>
 							<p>mike@example.com</p>
 							<button class="button" style="width:auto">Leer más.</button>
 						</div>
@@ -85,8 +85,8 @@
 						<img src="img/p3.jpg" alt="John" class="card-img-top">
 						<div class="card-body">
 							<h2>Bolsa al Día.</h2>
-							<p class="title">Negocios, Finansas</p>
-							<p>Analisis y manejo de activos en la bolsa de valores...</p>
+							<p class="title">Negocios, Finanzas</p>
+							<p>Análisis y manejo de activos en la bolsa de valores...</p>
 							<p>john@example.com</p>
 							<p><button class="button" style="width:auto">Leer más.</button></p>
 						</div>
