@@ -23,7 +23,7 @@
 	href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 <body>
 
-	<section>
+	<section style="width:98vw">
 		<div class="row justify-content-center my-3">
 			<div class="col-md-6 ">
 				<div class="card">
@@ -168,18 +168,16 @@
 
 			<!-- Right -->
 			<div id="socialMedia" class="row">
-
-				<a
-					href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal"
-					class="col text-reset"> <i
-					class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-				</a> <a href="https://twitter.com/Cumpliendosue21"
-					class="col text-reset"> <i class="fa fa-twitter fa-2x"
-					aria-hidden="true"></i>
-				</a> <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg"
-					class="col text-reset"> <i class="fa fa-youtube fa-2x"
-					aria-hidden="true"></i>
+				<a href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal" class="col"> 
+					<img src="https://img.icons8.com/ios-glyphs/480/facebook.png" width="32">
+				</a> 
+				<a href="https://twitter.com/Cumpliendosue21" class="col text-reset"> 
+					<img src="https://pngimg.com/uploads/twitter/twitter_PNG1.png" width="28">
+				</a> 
+				<a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg" class="col text-reset"> 
+					<img src="https://cdn-icons-png.flaticon.com/512/37/37922.png" width="30">
 				</a>
+				
 			</div>
 			<!-- Right -->
 		</section>
