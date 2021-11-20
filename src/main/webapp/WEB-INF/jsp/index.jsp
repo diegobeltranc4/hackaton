@@ -26,10 +26,10 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
+						<a href="registroProyecto"><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
 					</li>
 					<li class="nav-item">
-						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+						<a href="buscador"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
@@ -62,7 +62,7 @@
 							<p class="title">Agro</p>
 							<p>Técnicas especializadas en crianza...</p>
 							<p>jane@example.com</p>
-							<p><button class="button" style="width:auto">Leer más.</button></p>
+							<p><button class="button" style="width:auto">Leer más...</button></p>
 							 <form class="form-inline">
 								  <p class="clasificacion">
 								    <input id="radio1" type="radio" name="estrellas" value="5"><!--
@@ -89,7 +89,7 @@
 							<p class="title">Educación</p>
 							<p>Estrategias de aprendizaje autodidácta en casa...</p>
 							<p>mike@example.com</p>
-							<button class="button" style="width:auto">Leer más.</button>
+							<button class="button" style="width:auto">Leer más...</button>
 							<form class="form-inline">
 								  <p class="clasificacion">
 								    <input id="radio6" type="radio" name="estrellas" value="5"><!--
@@ -116,7 +116,7 @@
 							<p class="title">Negocios, Finanzas</p>
 							<p>Análisis y manejo de activos en la bolsa de valores...</p>
 							<p>john@example.com</p>
-							<p><button class="button" style="width:auto">Leer más.</button></p>
+							<p><button class="button" style="width:auto">Leer más...</button></p>
 							<form class="form-inline">
 								  <p class="clasificacion">
 								    <input id="radio11" type="radio" name="estrellas" value="5"><!--
@@ -137,7 +137,7 @@
 			</div>
 			
 			<div id="message" style="height:20vh; background-color: #e5ebe9; font-size:2vh; margin-top: 20px; display: flex; align-items: center; justify-content:center">
-				<h2 style="">Si buscas resultados distintos... no hagas siempre lo mismo.</h2>
+				<h2 style="">Si buscas resultados distintos... no hagas siempre lo mismo</h2>
 			</div>
 			
 			<section id="nosotros" class="mb-5">

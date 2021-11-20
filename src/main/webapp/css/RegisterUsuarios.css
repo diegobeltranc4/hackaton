@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/bckgr.svg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;	
+  height: 80vh;
+ 
+}
+
+h2{
+	text-align:center;
+	color: #5cbeb7;
+}	
+
+btn btn-primary{
+	justify-content:center;
+}
+

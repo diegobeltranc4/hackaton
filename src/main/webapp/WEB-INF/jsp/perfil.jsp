@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>perfil</title>
+<title>Perfil</title>
 
 		<link rel="stylesheet" href="css/perfilStyle.css">
 <meta charset="UTF8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cumpliendo Sueños</title>
+	<title>Menu</title>
 	<link rel="shortcut icon" type="image/png" href="img/lg2.png">
 	<link rel="stylesheet" href="../css/menuCp.css">
 	<link rel="stylesheet" href="../css/footerStyleCp.css">
@@ -57,7 +57,7 @@
 						  </div> 
 					</li>
 					<li class="nav-item">
-						<a href="login"><i class="fa fa-fw  fa-power-off"></i> Cerar sesion</a>
+						<a href="login"><i class="fa fa-fw  fa-power-off"></i> Cerrar sesión</a>
 					</li>
 				</ul>
 			</div>
@@ -65,7 +65,7 @@
 	</header>	
 				
 <br>
-<h1 align="center">Tus Proyectos.</h1>
+<h1 align="center">Tus proyectos</h1>
 <br>
 
 <div style=" text-align:center;">
@@ -109,7 +109,7 @@
     <div class="content">
     <img src="img/lc.jpg" alt="Lights" style="width:100%">
       <h4>Luces de vida</h4>
-      <p>busca tu luz...</p>
+      <p>Busca tú luz...</p>
       <form class="form-inline">
 		  <p class="clasificacion">
 		    <input id="radio6" type="radio" name="estrellas" value="5"><!--
@@ -129,8 +129,8 @@
   <div class="columna Emprendedor">
     <div class="content">
     <img src="img/fr.jpg" alt="Nature" style="width:100%">
-      <h4>Bosque</h4>
-      <p>Reforestacion..</p>
+      <h4>Reforestación</h4>
+      <p>Ayúdanos a combatir el cambio climático...</p>
       <form class="form-inline">
 		  <p class="clasificacion">
 		    <input id="radio11" type="radio" name="estrellas" value="5"><!--
@@ -152,7 +152,7 @@
     <div class="content">
       <img src="img/ni.jpg" alt="Car" style="width:100%">
       <h4>Niñez</h4>
-      <p>los niños son primero..</p>
+      <p>Los niños son nuestra prioridad...</p>
       <form class="form-inline">  
 		  <p class="clasificacion">
 		    <input id="radio16" type="radio" name="estrellas" value="5"><!--
@@ -173,7 +173,7 @@
     <div class="content">
     <img src="img/hm.jpg" alt="Car" style="width:100%">
       <h4>La humanidad</h4>
-      <p>Como prevenir el fin...</p>
+      <p>Cómo contribuir en la preservación del planeta...</p>
       <form class="form-inline">     
 		  <p class="clasificacion">
 		    <input id="radio21" type="radio" name="estrellas" value="5"><!--
@@ -246,78 +246,99 @@ for (var i = 0; i < btns.length; i++) {
 <br>
 
 </body>
-<!-- Footer -->
-<footer class="page-footer font-small blue">
+<footer
+		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
 
-	<!-- Footer Links -->
-	<div class="container-fluid text-center">
-  
-	  <!-- Grid row -->
-	  <div class="row">
-		<hr class="clearfix w-100 d-md-none pb-3">
-		
-		<!-- Grid column -->
-		<div class="col-md-4 mb-md-0 mb-3">
-  
-		  <!-- Links -->
-		  
-		  <h5 class="text-uppercase">Cumpliendo Sueños</h5>
-  
-		  <p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de ideas de negocios y hacer realidad los sueños de muchas personas.
-		</p>
-  
-		</div>
-		<!-- Grid column -->
-  
-		<!-- Grid column -->
-		<div class="col-md-5 mb-md-0 mb-3">
-  
-		  <!-- Links -->
-		  <h5 class="text-uppercase" align="center">Conócenos</h5>
-  
-		  <ul class="form-inline">
-			  <a href="#!">Preguntas frecuentes</a>
-			  <a href="#!">-</a>
-			  <a href="#!">Contáctanos</a>
+		<!-- Section: Links  -->
+		<section class="pt-1">
+			<div class="container text-center text-md-start mt-5">
+				<!-- Grid row -->
+				<div class="row mt-3">
+					<!-- Grid column -->
+					<div class="col-md-4 mb-md-0 mb-3">
+						<!-- Links -->
+						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
+						<p align="left">Busca conectar emprendedores con socios e
+							inversionistas para que se puedan poner en marcha toda clase de
+							ideas de negocios y hacer realidad los sueños de muchas personas.
+						</p>
+					</div>
+					<!-- Grid column -->
 
-		  </ul>
-		  
-  
-		</div>
-		<!-- Grid column -->
-		<div class="col-md-3 mb-md-0 mb-3">
-  
-			<!-- Links -->
-			<h5 class="text-uppercase">Síguenos por nuestras redes sociales</h5>
-			<a href="#!"><i class="fa fa-facebook-square"></i>  Facebook</a>
-			<a href="#!"><i class="fa fa-instagram"></i>  Instagram</a>
-			<a href="#!"><i class="fa fa-youtube"></i>  Youtube</a>
-			<a href="#!"><i class="fa fa-twitter"></i>  Twitter</a>
-		</div>
-  
-	  </div>
-	  <!-- Grid row -->
-	  
-  
-	</div>
-	<!-- Footer Links -->
-  	<br>
-  	  	<br>
-  	<!-- Copyright -->
-	<div class="contenedor text-center text-md-left" style="">
-		<a href="#!"><i class="fa fa-map-marker"></i> Bogotá D.C-</a>
-		<a href="#!"><i class="fa fa-mobile"></i>  (+57 1) 321 200 8765  </a>
-		<a href="#!"><i class="fa fa-envelope"></i> cantacto@cumpliendosuenos.com.co  |  </a>
-		<a href="#!">Términos y Condiciones  </a>
-		<a href="#!">Tratamiento de datos</a>
-	</div>
-	
-	<!-- Copyright -->
-	<div class="footer-copyright text-center py-3">© 2020 Copyright:
-    	<a href="https://mdbootstrap.com/"> Isa.com</a>
-  	</div>
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Links</h6>
+						<p>
+							<a href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing" class="text-reset">Términos y Condiciones</a>
+						</p>
+						<p>
+							<a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing" class="text-reset">Tratamiento de datos</a>
+						</p>
+						<p>
+							<a
+								href="https://drive.google.com/file/d/1H9NSW305PlRXyN10OFVFEZgD5wMq0QHl/view?usp=sharing"
+								class="text-reset">Preguntas Frecuentes</a>
+						</p>
 
-</footer>
-<!-- Footer -->
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
+						<p>
+							<i class="fa fa-map-marker me-3"></i>Bogotá D.C.
+						</p>
+						<p>
+							<i class="fa fa-envelope me-3"></i>cumpliendosueno2021@outlook.com
+						</p>
+						<p>
+							<i class="fa fa-phone me-3"></i>(+57 1) 321 200 8765
+						</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+		</section>
+		<!-- Section: Links  -->
+
+		<!-- Section: Social media -->
+		<section
+			class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
+			<!-- Left -->
+			<div class="me-5 d-none d-lg-block">
+				<span>Síguenos por nuestras redes sociales:</span>
+			</div>
+			<!-- Left -->
+
+			<!-- Right -->
+			<div id="socialMedia" class="row">
+
+				<a href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal"
+					class="col text-reset"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+				</a> <a href="https://twitter.com/Cumpliendosue21"
+					class="col text-reset"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+				</a> 
+				<a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg"
+					class="col text-reset"> <i class="fa fa-youtube fa-2x"
+					aria-hidden="true"></i>
+				</a>
+			</div>
+			<!-- Right -->
+		</section>
+		<!-- Section: Social media -->
+
+		<!-- Copyright -->
+		<div class="text-center p-4"
+			style="background-color: rgba(0, 0, 0, 0.05);">
+			© 2021 Copyright: <a class="text-reset fw-bold"
+				href="https://mdbootstrap.com/"></a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+	<!-- Footer -->
 
 </html>
