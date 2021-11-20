@@ -65,8 +65,7 @@
 			<div class="col-md-6 ">
 				<div class="card">
 					<article style="background-color: #ADAFB1" class="card-body"></article>
-					<h2 style="color: #5cbeb7" class="py-3">Registra los detalles
-						del proyecto</h2>
+					<h2 style="color: #5cbeb7" class="py-3">Edita tu proyecto</h2>
 					<form class="form-inline">
 
 						<div class="row g-3 my-1 mx-1">
@@ -108,6 +107,12 @@
 							</div>
 							<!-- form-group end.// -->
 						</div>
+						
+						<div class="row g-3 my-1 mx-2">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Inserta la URL de la imagen de tu proyecto">
+						</div>
+						</div>
 						<div class="row g-3 my-1 mx-2">
 
 							<div class="form-group col-md-12" id="editor">
@@ -129,28 +134,11 @@
 								</li>-->
 							</ul>
 
-							<div class="form-row">
-								<div class="form-group">
-									<div class="form-group">
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value=""
-												id="invalidCheck2" required> <label
-												class="form-check-label" for="invalidCheck2"> <small>Al
-													hacer clic en el botón confirma que acepta nuestros <a
-													href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing">Términos de uso y Política de privacidad.</a>
-											</small>
-											</label>
-										</div>
-									</div>
-
-								</div>
-							</div>
-
+							
 						</div>
 						<div class="form-group mt-4 mb-4" style="margin-left: 10px">
 							<button name="proyecto" id="proyecto"
-								class="btn btn-warning btn-block regular-button ">Crear
-								Proyecto</button>
+								class="btn btn-warning btn-block regular-button ">Guardar</button>
 						</div>
 						<article style="background-color: #ADAFB1" class="card-body">
 							<small class="text-white"></small>

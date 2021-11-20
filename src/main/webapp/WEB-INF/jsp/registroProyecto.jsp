@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF8">
-<title>Insert title here</title>
+<title>Registro de Proyecto</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -108,6 +108,14 @@
 							</div>
 							<!-- form-group end.// -->
 						</div>
+						<div>
+						<div class="row g-3 my-1 mx-2">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Inserta la URL de la imagen de tu proyecto">
+						</div>
+						</div>
+						
+						
 						<div class="row g-3 my-1 mx-2">
 
 							<div class="form-group col-md-12" id="editor">
@@ -136,8 +144,7 @@
 											<input class="form-check-input" type="checkbox" value=""
 												id="invalidCheck2" required> <label
 												class="form-check-label" for="invalidCheck2"> <small>Al
-													hacer clic en el botón confirma que acepta nuestros <a
-													href="#!">Términos de uso y Política de privacidad.</a>
+													hacer clic en el botón confirma que acepta nuestros <a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing">Términos de uso y Política de privacidad.</a>
 											</small>
 											</label>
 										</div>
@@ -155,23 +162,22 @@
 						<article style="background-color: #ADAFB1" class="card-body">
 							<small class="text-white"></small>
 						</article>
-				</div>
+						</div>
 
 
 
 				<!-- form-group// -->
+			</form>
 			</div>
 
-
-
-			</form>
-
-		</div>
-		</div>
+	
+		
+			
 
 		</div>
+		
 
-		<article></article>
+		
 	</section>
 
 	<footer
