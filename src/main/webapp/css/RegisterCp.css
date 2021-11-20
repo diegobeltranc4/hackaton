@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("https://cdn.pixabay.com/photo/2016/07/08/13/37/texture-1504364_960_720.jpg") repeat center top;
-  /*background-size: cover;*/
+  background: url("https://i.ebayimg.com/thumbs/images/g/67QAAOSwhBNdxo5E/s-l300.jpg") no-repeat center top;
+  background-size: cover;
   font-family: sans-serif;	
   /*height: 100vh;*/
  
@@ -17,3 +17,16 @@ btn btn-primary{
 	justify-content:center;
 }
 
+footer{
+	background-color: #28847E;
+	opacity: 0.8;
+	
+}
+
+footer span{
+	color: black;
+}
+
+footer p{
+	color:black;
+}

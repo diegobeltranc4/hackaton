@@ -178,7 +178,7 @@
 					<!-- Grid column -->
 					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 						<!-- Links -->
-						<h6 class="text-uppercase fw-bold mb-4">Links</h6>
+						<h6 class="text-uppercase fw-bold mb-4" >Links</h6>
 						<p>
 							<a href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing" class="text-reset">Términos y Condiciones</a>
 						</p>

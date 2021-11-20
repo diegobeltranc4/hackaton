@@ -163,7 +163,7 @@
 	</section>
 
 	<footer
-		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
+		class="text-center text-lg-start">
 
 		<!-- Section: Links  -->
 		<section class="pt-1">
@@ -252,7 +252,7 @@
 		<!-- Copyright -->
 		<div class="text-center p-4"
 			style="background-color: rgba(0, 0, 0, 0.05);">
-			© 2021 Copyright: <a class="text-reset fw-bold"
+			© 2021 Copyright <a class="text-reset fw-bold"
 				href="https://mdbootstrap.com/"></a>
 		</div>
 		<!-- Copyright -->
