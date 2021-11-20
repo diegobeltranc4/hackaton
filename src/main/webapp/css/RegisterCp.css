@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("https://i.ebayimg.com/thumbs/images/g/67QAAOSwhBNdxo5E/s-l300.jpg") no-repeat center top;
+  background: url("https://i.ebayimg.com/thumbs/images/g/67QAAOSwhBNdxo5E/s-l300.jpg") repeat center top;
   background-size: cover;
   font-family: sans-serif;	
   /*height: 100vh;*/
@@ -23,10 +23,8 @@ footer{
 	
 }
 
-footer span{
+footer span, p{
 	color: black;
 }
 
-footer p{
-	color:black;
-}
+
