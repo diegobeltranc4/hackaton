@@ -29,7 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		//acceso publico, sin autenticación
-		http.authorizeRequests().antMatchers("/","/login","/","/auth/**","/public/**","/css/**","/js/**").permitAll().anyRequest().authenticated()
+		http.authorizeRequests().antMatchers("/","/login","/","/auth/**","/public/**","/css/**","/js/**","/registroUsuarios","/registroProyecto").permitAll().anyRequest().authenticated()
 		.and()
 			.formLogin().loginPage("/login").defaultSuccessUrl("/inicio",true).failureForwardUrl("/login?error=true")
 			.loginProcessingUrl("/login-post").permitAll()

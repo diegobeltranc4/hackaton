@@ -1,4 +1,4 @@
-package co.com.Hackaton.controller;
+package co.com.Hackaton.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,11 +25,18 @@ public class LoginController {
 		return "login";	
 	}
 	
-	@GetMapping("/registro")
+	@GetMapping("/registroUsuarios")
 	public String registroForm(Model model) {
 		model.addAttribute("usuario",new Usuario());
 		
-		return "registro";
+		return "registroUsuarios";
+	}
+	
+	@GetMapping("/registroProyecto")
+	public String registroProyecto(Model model) {
+		model.addAttribute("usuario",new Usuario());
+		
+		return "registroProyecto";
 	}
 	
 	@PostMapping("/registro")//verificar anotacion validated es valid

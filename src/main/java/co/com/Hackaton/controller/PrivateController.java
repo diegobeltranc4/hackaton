@@ -1,4 +1,4 @@
-package co.com.Hackaton.controller;
+package co.com.Hackaton.Controller;
 
 import javax.servlet.http.HttpSession;
 
