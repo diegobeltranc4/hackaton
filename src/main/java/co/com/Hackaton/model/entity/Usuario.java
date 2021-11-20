@@ -12,6 +12,7 @@ import javax.persistence.Table;
 @Table(name = "usuarios")
 public class Usuario implements Serializable{
 	
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
@@ -86,6 +87,6 @@ public class Usuario implements Serializable{
 		super();
 	}
 	
-	 
+	private static final long serialVersionUID = 1L;
 	
 }

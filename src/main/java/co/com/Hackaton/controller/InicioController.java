@@ -15,13 +15,15 @@ public class InicioController {
 	@GetMapping
 	public String inicio(HttpServletRequest request) {
 		
+		return "index";
+		/*
 		Object aux = request.getAttribute("nombre");
 		 
 		if(aux != null) {
 			return "index";
 		}else {
 			return "index";
-		}
+		}*/
 		
 		
 	}
