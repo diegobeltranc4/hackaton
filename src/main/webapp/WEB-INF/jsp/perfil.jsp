@@ -122,6 +122,7 @@
 </div>
 
 <script>
+filterSelection("all")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("columna");
