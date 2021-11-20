@@ -36,8 +36,8 @@
 							<i class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
-							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+							<li><a class="dropdown-item" href="login">Iniciar Sesión</a></li>
+							<li><a class="dropdown-item" href="registroUsuarios">Crear cuenta</a></li>
 							<!-- <li><hr class="dropdown-divider"></li>
 							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
 						</ul>
