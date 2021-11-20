@@ -37,8 +37,8 @@
 			<!--button type="submit" class="btn btn-primary"  name="crear">ingresar</button-->
 			<input type="submit" class="btn btn-primary" value="Ingresar" name="ingresar">
 		</form>
-		<div class="textos"><a href="#olvido">¿Olvido su contraseña?</a></div>
-		<a href="registroUsuarios">¿ No tiene una cuenta ?</a>
+		<div class="textos"><a href="#olvido">¿Olvido su contraseña?  </a></div>
+		<a href="registroUsuarios">¿ No tiene una cuenta  ?</a>
 	</div>
 </body>
 </html>
