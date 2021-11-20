@@ -1,0 +1,201 @@
+@charset "ISO-8859-1";
+
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url(../img/bg2.svg);
+  
+}
+
+.bodis {
+	background-image: url(../img/bg2.svg);
+}
+
+.cabecera {
+	
+	width: 100%;
+	background-color: #eeeeee;	
+	overflow: auto;
+}
+
+.avatar {
+	border-radius: 100%;
+	width: 4vh;
+	height: 4vh;
+	align-self: rigth;
+}
+
+.cabecera a{
+	padding: 1vh;
+  text-decoration: none;
+  font-size: 3vh;
+  color: #5cbeb7;
+}
+
+
+.dpgl {
+  float: left;
+  overflow: hidden;
+}
+
+.dpgl .dropbtn {
+  font-size: 2vh;  
+  border: none;
+  outline: none;
+  color:#5cbeb7;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.dpgl-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 16vh;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 3%;
+}
+
+.dpgl-content a {
+  float: none;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dpgl-content a:hover {
+  background-color: #ffffff;
+}
+
+.dpgl:hover .dpgl-content {
+  display: block;
+}
+
+.alin {
+	float: right;
+}
+.alin2 {
+	float: left;
+}
+
+.carta {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 35vh;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+   border-radius: 3%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 40vh;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+
+button {
+	float:right;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1vh;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Center website */
+.mani {
+  width:100%;
+  margin: 2vh;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.fila {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.fila,
+.fila > .columna {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.columna {
+  float: left;
+  width: 25%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.fila:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 2vh;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+	
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
