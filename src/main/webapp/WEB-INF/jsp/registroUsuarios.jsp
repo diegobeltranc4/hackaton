@@ -16,12 +16,12 @@
 <body>
 
 <section>
-<div class="row justify-content-center">
-<div class="col-md-6">
-<div class="card">
+	<div class="row justify-content-center">
+	<div class="col-md-6">
+	<div class="card">
 	<article class="card-body">
 	<h3 class="py-3">Regístrate</h3>
-<form>
+<form class="form-inline">
 	
 	<div class="form-row">
 		<div class="col form-group"> 

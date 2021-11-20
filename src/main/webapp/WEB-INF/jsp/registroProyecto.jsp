@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="../css/navStyleCp.css">
 </head>
 <body>
-<header class="navbar navbar-expand-lg navbar-light bg-light">
+<header class="navbar navbar-expand-lg navbar-light bg-light" style="overflow: visible;">
 		<div class="container-fluid">
 			<a href="#" class="navbar-brand">
 				<img alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170" height="170">
@@ -24,13 +24,24 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a href=clientes><i class="fa fa-fw fa-suitcase"></i> Inicia tu proyecto</a>
+						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
 					</li>
 					<li class="nav-item">
-						<a href="proveedores"><i class="fa fa-fw fa-search"></i> Buscar Proyectos</a>
+						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+							<i class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+							<!-- <li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
+						</ul>
 					</li>
 				</ul>
-			</div> 
+			</div>
 		</div>
 	</header>
 <section class="testimonial py-5" id="testimonial">
