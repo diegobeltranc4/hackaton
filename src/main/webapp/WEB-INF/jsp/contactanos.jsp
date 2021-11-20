@@ -1,6 +1,7 @@
 <%@page import="java.util.List"%>
 <%@page import="org.springframework.ui.Model"%>
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8" isErrorPage="true"%>
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"
+	isErrorPage="true"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,13 +16,14 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../css/contactaStyle.css">
 <link rel="stylesheet" href="../css/navStyleCp.css">
 <link rel="stylesheet" href="../css/footerStyleCp.css">
 </head>
 <body>
-<header class="navbar navbar-expand-lg navbar-light bg-light"
+	<header class="navbar navbar-expand-lg navbar-light bg-light"
 		style="overflow: visible;">
 		<div class="container-fluid">
 			<a href="#" class="navbar-brand"> <img
@@ -55,37 +57,134 @@
 			</div>
 		</div>
 	</header>
-<div class="container my-3">
-  <div style="text-align:center">
-    <h2>Contáctanos</h2>
-    <p>Si tienes alguna duda o deseas hablar con nosotros, escríbenos y con gusto nuestro equipo se comunicará contigo:</p>
-  </div>
-
-    <div class="column">
-      <img src="img/ct.jpg" style="width:100%">
-    </div>
-    <div class="column">
-      <form action="/action_page.php">
-        
-        <input type="text" id="fname" name="firstname" placeholder="Nombre Completo">
-        
-        <input type="text" id="lname" name="lastname" placeholder="Correo electrónico">
-        
-        <select id="country" name="country">
-	        <option selected disabled value="">Seleciona el país</option>
-	          <option value="australia">Colombia</option>
-	          <option value="canada">Canada</option>
-	          <option value="usa">USA</option>
-	    </select>
-        <label for="subject">Mensaje</label>
-        <textarea id="subject" name="subject" placeholder="Escribe tu inquietud" style="height:170px"></textarea>
-        
-        <button name="enviar" type="submit" class="btn btn-warning btn-block regular-button ">Enviar</button>
-      </form>
-    </div>
-</div>
-<footer
+	<div class="container my-5">
+		<div style="text-align: center">
+			<h2>Contáctanos</h2>
+			<p>Si tienes alguna duda o deseas hablar con nosotros, escríbenos
+				y con gusto nuestro equipo se comunicará contigo:</p>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<img src="img/ct.jpg" style="width: 100%">
+			</div>
+			<div class="col-6">
+				<form action="contactanos" method="Post">
+					<label for="fname">Nombre Completo</label> <input type="text"
+						id="fname" name="firstname" placeholder="Nombre Completo..">
+					<label for="lname">Correo electrónico</label> <input type="text"
+						id="lname" name="lastname" placeholder="Correo electrónico..">
+					<label for="country">Pais</label> <select id="country"
+						name="country">
+						<option value="australia">Colombia</option>
+						<option value="canada">Canada</option>
+						<option value="usa">USA</option>
+					</select> <label for="subject">Mensaje</label>
+					<textarea id="subject" name="subject" placeholder="Escribe algo.."
+						style="height: 170px"></textarea>
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer
 		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
+
+		<!-- Section: Links  -->
+		<section class="pt-1">
+			<div class="container text-center text-md-start mt-5">
+				<!-- Grid row -->
+				<div class="row mt-3">
+					<!-- Grid column -->
+					<div class="col-md-4 mb-md-0 mb-3">
+						<!-- Links -->
+						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
+						<p align="left">Busca conectar emprendedores con socios e
+							inversionistas para que se puedan poner en marcha toda clase de
+							ideas de negocios y hacer realidad los sueños de muchas personas.
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Links</h6>
+						<p>
+							<a
+								href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing"
+								class="text-reset">Términos y Condiciones</a>
+						</p>
+						<p>
+							<a
+								href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing"
+								class="text-reset">Tratamiento de datos</a>
+						</p>
+						<p>
+							<a
+								href="https://drive.google.com/file/d/1H9NSW305PlRXyN10OFVFEZgD5wMq0QHl/view?usp=sharing"
+								class="text-reset">Preguntas Frecuentes</a>
+						</p>
+
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
+						<p>
+							<i class="fa fa-map-marker me-3"></i>Bogotá D.C.
+						</p>
+						<p>
+							<i class="fa fa-envelope me-3"></i>cumpliendosueno2021@outlook.com
+						</p>
+						<p>
+							<i class="fa fa-phone me-3"></i>(+57 1) 321 200 8765
+						</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+		</section>
+		<!-- Section: Links  -->
+
+		<!-- Section: Social media -->
+		<section
+			class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
+			<!-- Left -->
+			<div class="me-5 d-none d-lg-block">
+				<span>Síguenos por nuestras redes sociales:</span>
+			</div>
+			<!-- Left -->
+
+			<!-- Right -->
+			<div id="socialMedia" class="row">
+
+				<a
+					href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal"
+					class="col text-reset"> <i
+					class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+				</a> <a href="https://twitter.com/Cumpliendosue21"
+					class="col text-reset"> <i class="fa fa-twitter fa-2x"
+					aria-hidden="true"></i>
+				</a> <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg"
+					class="col text-reset"> <i class="fa fa-youtube fa-2x"
+					aria-hidden="true"></i>
+				</a>
+			</div>
+			<!-- Right -->
+		</section>
+		<!-- Section: Social media -->
+
+		<!-- Copyright -->
+		<div class="text-center p-4"
+			style="background-color: rgba(0, 0, 0, 0.05);">
+			© 2021 Copyright: <a class="text-reset fw-bold"
+				href="https://mdbootstrap.com/"></a>
+		</div>
+		<!-- Copyright -->
+	</footer>
 
 		<!-- Section: Links  -->
 		<section class="pt-1">

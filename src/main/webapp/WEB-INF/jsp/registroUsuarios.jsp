@@ -35,7 +35,6 @@
 							<div class="col-6 form-group ">
 								<input name="nombre" type="text" class="form-control"
 									placeholder="Nombre Completo" required>
-
 							</div>
 							<!-- form-group end.// -->
 							<div class="col-6 form-group">
@@ -51,14 +50,12 @@
 							</div>
 							<!-- form-group end.// -->
 							<div class="col-6 form-group">
-
 								<input name="edad" type="text" class="form-control"
 									placeholder="Edad" required>
 							</div>
 							<!-- form-group end.// -->
 						</div>
 						<div class="row g-3 my-1 mx-1">
-
 							<div class="col-6 form-group">
 								<input name="email" type="email" class="form-control"
 									placeholder="Correo electrónico" required>
@@ -82,7 +79,6 @@
 							</div>
 							<!-- form-group end.// -->
 						</div>
-
 						<div class="form-group mt-4 mb-4" style="margin-left: 12px">
 							<button name="registro" type="submit"
 								class="btn btn-warning btn-block regular-button ">Registro</button>
@@ -99,8 +95,6 @@
 			</div>
 
 		</div>
-
-		<article></article>
 	</section>
 
 

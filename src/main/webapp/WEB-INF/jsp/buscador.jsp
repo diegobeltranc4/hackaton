@@ -1,9 +1,9 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF8"
     pageEncoding="UTF8"%>
 <!DOCTYPE html>
 <html>
 <head>
-	
 	<meta charset="UTF8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cumpliendo Sueños</title>
@@ -22,23 +22,24 @@
 				<img alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170" height="170">
 			</a>
 			<button class="navbar-toggler ml-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   				<span class="navbar-toggler-icon"></span>
-   			</button>
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
+						<a href="registroProyecto"><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
 					</li>
 					<li class="nav-item">
-						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+						<a href="#"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
 							<i class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
-							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+							<li><a class="dropdown-item" href="perfil">Perfil</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="registroUsuarios">Cerrar sesion</a></li>
 							<!-- <li><hr class="dropdown-divider"></li>
 							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
 						</ul>
@@ -52,92 +53,14 @@
 			<input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
 			<button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
 		</div>
-		<select class="form-select w-75 position-absolute top-0 start-50 translate-middle" aria-label="Default select example">
-			<option selected>Selecciona la categoria</option>
-			<option value="1">Arte</option>
-			<option value="2">Tecnología</option>
-			<option value="3">Moda</option>
+		<select id="categSelect" class="form-select w-75 position-absolute top-0 start-50 translate-middle" aria-label="Default select example">
+			<!-- Listado categorias -->
 		</select>
 		<br>
 		<br>
 		<h2 style="text-align: center; color:#e0a500;">Estás solo a un paso de encontrar un inversionista</h2>
 		<div class="row mx-3" id="listaEmprendimientos">
-			<div class="col-12 col-sm-6 col-lg-4 mt-3">
-				<div class="card">
-					<img src="img/p1.jpg" alt="Jane" class="card-img-top">
-					<div class="card-body">
-						<h2>Agro Ciervo</h2>
-						<p class="title">Agro</p>
-						<p>Técnicas especializadas en crianza...</p>
-						<p>jane@example.com</p>
-						<p><button class="button" style="width:auto">Leer más.</button></p>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-12 col-sm-6 col-lg-4 mt-3">
-				<div class="card">
-					<img src="img/p2.jpg" alt="Mike" class="card-img-top">
-					<div class="card-body">
-						<h2>Aprende En Casa</h2>
-						<p class="title">Educación</p>
-						<p>Estrategias de aprendizaje autodidácta en casa...</p>
-						<p>mike@example.com</p>
-						<button class="button" style="width:auto">Leer más.</button>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-12 col-sm-6 col-lg-4 mt-3">
-			    <div class="card">
-					<img src="img/p3.jpg" alt="John" class="card-img-top">
-					<div class="card-body">
-						<h2>Bolsa al Día.</h2>
-						<p class="title">Negocios, Finanzas</p>
-						<p>Análisis y manejo de activos en la bolsa de valores...</p>
-						<p>john@example.com</p>
-						<p><button class="button" style="width:auto">Leer más.</button></p>
-					</div>
-			    </div>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-4 mt-3">
-			    <div class="card">
-					<img src="img/p3.jpg" alt="John" class="card-img-top">
-					<div class="card-body">
-						<h2>Bolsa al Día.</h2>
-						<p class="title">Negocios, Finanzas</p>
-						<p>Análisis y manejo de activos en la bolsa de valores...</p>
-						<p>john@example.com</p>
-						<p><button class="button" style="width:auto">Leer más.</button></p>
-					</div>
-			    </div>
-			</div>
-			
-			<div class="col-12 col-sm-6 col-lg-4 mt-3">
-			    <div class="card">
-					<img src="img/p3.jpg" alt="John" class="card-img-top">
-					<div class="card-body">
-						<h2>Bolsa al Día.</h2>
-						<p class="title">Negocios, Finanzas</p>
-						<p>Análisis y manejo de activos en la bolsa de valores...</p>
-						<p>john@example.com</p>
-						<p><button class="button" style="width:auto">Leer más.</button></p>
-					</div>
-			    </div>
-			</div>
-			
-			<div class="col-12 col-sm-6 col-lg-4 mt-3">
-			    <div class="card">
-					<img src="img/p3.jpg" alt="John" class="card-img-top">
-					<div class="card-body">
-						<h2>Bolsa al Día.</h2>
-						<p class="title">Negocios, Finanzas</p>
-						<p>Análisis y manejo de activos en la bolsa de valores...</p>
-						<p>john@example.com</p>
-						<p><button class="button" style="width:auto">Leer más.</button></p>
-					</div>
-			    </div>
-			</div>
+			<!-- Listado de emprendimientos -->
 		</div>
 	</article>
 	<footer
@@ -235,5 +158,17 @@
 		<!-- Copyright -->
 	</footer>
 	<!-- Footer -->
+	<script type="text/javascript">
+		/*let projects = [	
+			
+		]*/
+		let categorias = ["Arte","Artesanias","Cine y video","Comida","Comics","Danza","Diseño","Fotografia","Juegos","Moda","Musica","Periodismo","Publicaciones","Teatro","Tecnologia", "Agro", "Educacion"]
+		let projects = [
+			{id:1, imagen:"img/p1.jpg", nombre:"Agro Ciervo", categoria:"Agro", correoUsuario:"mike@example.com", user:"mike", descripcion:"Tecnicas especializadas en crianza..."},
+			{id:2, imagen:"img/p2.jpg", nombre:"Aprende En Casa", categoria:"Educacion", correoUsuario:"mike@example.com", user:"mike", descripcion:"Tecnicas especializadas en crianza..." },
+			{id:3, imagen:"img/p3.jpg", nombre:"Agro Ciervo", categoria:"Agro", correoUsuario:"mike@example.com", user:"mike", descripcion:"Tecnicas especializadas en crianza..."},
+		]
+	</script>
+	<script src="../js/filtro.js"></script>
 </body>
 </html>

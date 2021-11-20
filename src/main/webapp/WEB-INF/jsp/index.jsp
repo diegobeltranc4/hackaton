@@ -26,10 +26,10 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
+						<a href="registroProyecto"><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
 					</li>
 					<li class="nav-item">
-						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+						<a href="buscador"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
@@ -60,7 +60,6 @@
 						<div class="card-body">
 							<h2>Agro Ciervo</h2>
 							<p class="title">Agro</p>
-							<p>Técnicas especializadas en crianza...</p>
 							<p>jane@example.com</p>
 							<p><button class="button" style="width:auto">Leer más...</button></p>
 							 <form class="form-inline">
@@ -87,7 +86,6 @@
 						<div class="card-body">
 							<h2>Aprende En Casa</h2>
 							<p class="title">Educación</p>
-							<p>Estrategias de aprendizaje autodidácta en casa...</p>
 							<p>mike@example.com</p>
 							<button class="button" style="width:auto">Leer más...</button>
 							<form class="form-inline">
@@ -114,7 +112,6 @@
 						<div class="card-body">
 							<h2>Bolsa al Día.</h2>
 							<p class="title">Negocios, Finanzas</p>
-							<p>Análisis y manejo de activos en la bolsa de valores...</p>
 							<p>john@example.com</p>
 							<p><button class="button" style="width:auto">Leer más...</button></p>
 							<form class="form-inline">
