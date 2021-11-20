@@ -36,8 +36,8 @@
 							<i class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
-							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+							<li><a class="dropdown-item" href="login">Iniciar Sesión</a></li>
+							<li><a class="dropdown-item" href="registroUsuarios">Crear cuenta</a></li>
 							<!-- <li><hr class="dropdown-divider"></li>
 							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
 						</ul>
@@ -63,6 +63,20 @@
 							<p>Técnicas especializadas en crianza...</p>
 							<p>jane@example.com</p>
 							<p><button class="button" style="width:auto">Leer más.</button></p>
+							 <form class="form-inline">
+								  <p class="clasificacion">
+								    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+								    --><label for="radio1">★</label><!--
+								    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+								    --><label for="radio2">★</label><!--
+								    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+								    --><label for="radio3">★</label><!--
+								    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+								    --><label for="radio4">★</label><!--
+								    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+								    --><label for="radio5">★</label>
+								  </p>
+					      </form>
 						</div>
 					</div>
 				</div>
@@ -76,6 +90,20 @@
 							<p>Estrategias de aprendizaje autodidácta en casa...</p>
 							<p>mike@example.com</p>
 							<button class="button" style="width:auto">Leer más.</button>
+							<form class="form-inline">
+								  <p class="clasificacion">
+								    <input id="radio6" type="radio" name="estrellas" value="5"><!--
+								    --><label for="radio6">★</label><!--
+								    --><input id="radio7" type="radio" name="estrellas" value="4"><!--
+								    --><label for="radio7">★</label><!--
+								    --><input id="radio8" type="radio" name="estrellas" value="3"><!--
+								    --><label for="radio8">★</label><!--
+								    --><input id="radio9" type="radio" name="estrellas" value="2"><!--
+								    --><label for="radio9">★</label><!--
+								    --><input id="radio10" type="radio" name="estrellas" value="1"><!--
+								    --><label for="radio10">★</label>
+								  </p>
+					      </form>
 						</div>
 					</div>
 				</div>
@@ -89,6 +117,20 @@
 							<p>Análisis y manejo de activos en la bolsa de valores...</p>
 							<p>john@example.com</p>
 							<p><button class="button" style="width:auto">Leer más.</button></p>
+							<form class="form-inline">
+								  <p class="clasificacion">
+								    <input id="radio11" type="radio" name="estrellas" value="5"><!--
+								    --><label for="radio11">★</label><!--
+								    --><input id="radio12" type="radio" name="estrellas" value="4"><!--
+								    --><label for="radio12">★</label><!--
+								    --><input id="radio13" type="radio" name="estrellas" value="3"><!--
+								    --><label for="radio13">★</label><!--
+								    --><input id="radio14" type="radio" name="estrellas" value="2"><!--
+								    --><label for="radio14">★</label><!--
+								    --><input id="radio15" type="radio" name="estrellas" value="1"><!--
+								    --><label for="radio15">★</label>
+								  </p>
+					      </form>
 						</div>
 				    </div>
 				</div>
@@ -137,15 +179,15 @@
 			          <h6 class="text-uppercase fw-bold mb-4">
 			            Links
 			          </h6>
-			          <p>
-			            <a href="#!" class="text-reset">Términos y Condiciones</a>
-			          </p>
-			          <p>
-			            <a href="#!" class="text-reset">Tratamiento de datos</a>
-			          </p>
-			          <p>
+			          	<p>
+						<a href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing" class="text-reset">Términos y Condiciones</a>
+						</p>
+						<p>
+						<a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing" class="text-reset">Tratamiento de datos</a>
+						</p>
+			          	<p>
 			            <a href="https://drive.google.com/file/d/1H9NSW305PlRXyN10OFVFEZgD5wMq0QHl/view?usp=sharing" class="text-reset">Preguntas Frecuentes</a>
-			          </p>
+			          	</p>
 			          
 			        </div>
 			        <!-- Grid column -->
