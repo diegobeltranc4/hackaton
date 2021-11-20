@@ -15,7 +15,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header class="navbar navbar-expand-lg navbar-light bg-light">
+	<header class="navbar navbar-expand-lg navbar-light bg-light" style="overflow: visible;">
 		<div class="container-fluid">
 			<a href="#" class="navbar-brand">
 				<img alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170" height="170">
@@ -26,20 +26,31 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a href=clientes><i class="fa fa-fw fa-suitcase"></i> Inicia tu proyecto</a>
+						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
 					</li>
 					<li class="nav-item">
-						<a href="proveedores"><i class="fa fa-fw fa-search"></i> Buscar Proyectos</a>
+						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class=" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+							<i class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+							<!-- <li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
+						</ul>
 					</li>
 				</ul>
-			</div> 
+			</div>
 		</div>
 	</header>
 	<article>
 		<div class="parallax">
 			<br>
 			<br>
-			<h2 style="text-align: center; color:#e0a500;">Estas solo a un paso de encontrar un inversionista.</h2>
+			<h2 style="text-align: center; color:#e0a500;">Estas solo a un paso de encontrar un inversionista</h2>
 			<br>
 			<h2 align="center" style="color:#136F63;" class="mb-5">Proyectos Destacados</h2>
 			<div class="row mx-3" >
@@ -95,7 +106,7 @@
 						<h3 style="color:#e0a500;">Hacemos realidad tu iniciativa.</h3>
 						<br>
 						<h4>Aquí podrás publicar tu idea de negocio y los inversionistas te contactarán para apalancar tu proyecto.</h4>
-						<h3 style="color:#136F63;" >!Estamos contigo! </h3>
+						<h3 style="color:#136F63; padding: 2rem;" >!Estamos contigo! </h3>
 					</div>
 					<div class="col-12 col-sm-8" style="overflow:hidden">
 						<img src="img/img1.svg" alt="Jane" style="width:65vw">
@@ -132,6 +143,10 @@
 			          <p>
 			            <a href="#!" class="text-reset">Tratamiento de datos</a>
 			          </p>
+			          <p>
+			            <a href="https://drive.google.com/file/d/1H9NSW305PlRXyN10OFVFEZgD5wMq0QHl/view?usp=sharing" class="text-reset">Preguntas Frecuentes</a>
+			          </p>
+			          
 			        </div>
 			        <!-- Grid column -->
 			
@@ -141,11 +156,11 @@
 			          <h6 class="text-uppercase fw-bold mb-4">
 			            Contáctanos
 			          </h6>
-			          <p><i class="fa fa-map-marker me-3"></i> Bogotá D.C.</p>
+			          <p><i class="fa fa-map-marker me-3"></i>Bogotá D.C.</p>
 			          <p>
-			            <i class="fa fa-envelope me-3"></i> cumpliendosueno2021@outlook.com
+			            <i class="fa fa-envelope me-3"></i>cumpliendosueno2021@outlook.com
 			          </p>
-			          <p><i class="fa fa-phone me-3"></i> (+57 1) 321 200 8765</p>
+			          <p><i class="fa fa-phone me-3"></i>(+57 1) 321 200 8765</p>
 			        </div>
 			        <!-- Grid column -->
 			      </div>
@@ -158,7 +173,7 @@
 			  <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
 			    <!-- Left -->
 			    <div class="me-5 d-none d-lg-block">
-			      <span>Síguenos por nuestras redes sociales</span>
+			      <span>Síguenos por nuestras redes sociales:</span>
 			    </div>
 			    <!-- Left -->
 			
