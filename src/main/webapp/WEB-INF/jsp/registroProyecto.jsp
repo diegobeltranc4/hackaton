@@ -110,14 +110,12 @@
 								<!-- ESTO ES PARA EL EDITOR DE TEXTO -->
 							</div>
 							<div class="input-group mb-3">
-								<input name="links" type="text" class="form-control" placeholder="https://" aria-label="Recipient's username"
+								<input onClick="addLink()"name="links" id="socialurl" type="url" class="form-control" placeholder="https://" aria-label="Recipient's username"
 									aria-describedby="button-addon2">
 								<button class="btn btn-outline-secondary" type="button" id="añadir">Añadir</button>
 							</div>
 							<ul class="list-group mx-2" id="socialmedialist">
-								<!--  <li class="list-group-item list-group-item-secondary">
-									<i class="fa fa-link"></i> facebook
-								</li>-->
+								<!-- Listado redes sociales y links -->
 							</ul>
 							<div class="form-row">
 								<div class="form-group">
@@ -251,5 +249,14 @@
 </body>
 <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 <!-- Initialize Quill editor -->
+<script type="text/javascript">
+	let quill = new Quill('#editor', {
+	    theme : 'snow'
+	});
+	
+	let socialmedialisthtml = document.querySelector('#socialmedialist')
+	let socialmediabutton = document.getElementById("añadir")
+	let socialurl = document.querySelector('#socialurl') // is-invalid
+</script>
 <script src="../js/registroProject.js"></script>
 </html>
