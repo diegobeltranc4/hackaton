@@ -52,13 +52,13 @@
 			<br>
 			<h2 style="text-align: center; color:#e0a500;">Estas solo a un paso de encontrar un inversionista</h2>
 			<br>
-			<h2 align="center" style="color:#136F63;" class="mb-5">Proyectos Destacados</h2>
+			<h2 align="center" style="color:#136F63;" class="mb-5">Proyectos destacados</h2>
 			<div class="row mx-3" >
 				<div class="col-12 col-sm-6 col-lg-4 mt-3">
 					<div class="card">
 						<img src="img/p1.jpg" alt="Jane" class="card-img-top">
 						<div class="card-body">
-							<h2>Agro Ciervo</h2>
+							<h2>Agro ciervo</h2>
 							<p class="title">Agro</p>
 							<p>jane@example.com</p>
 							<p><button class="button" style="width:auto">Leer más...</button></p>
@@ -84,7 +84,7 @@
 					<div class="card">
 						<img src="img/p2.jpg" alt="Mike" class="card-img-top">
 						<div class="card-body">
-							<h2>Aprende En Casa</h2>
+							<h2>Aprende en casa</h2>
 							<p class="title">Educación</p>
 							<p>mike@example.com</p>
 							<button class="button" style="width:auto">Leer más...</button>
@@ -110,7 +110,7 @@
 				    <div class="card">
 						<img src="img/p3.jpg" alt="John" class="card-img-top">
 						<div class="card-body">
-							<h2>Bolsa al Día.</h2>
+							<h2>Bolsa al día.</h2>
 							<p class="title">Negocios, Finanzas</p>
 							<p>john@example.com</p>
 							<p><button class="button" style="width:auto">Leer más...</button></p>
@@ -134,15 +134,15 @@
 			</div>
 			
 			<div id="message" style="height:20vh; background-color: #e5ebe9; font-size:2vh; margin-top: 20px; display: flex; align-items: center; justify-content:center">
-				<h2 style="">Si buscas resultados distintos... no hagas siempre lo mismo</h2>
+				<h2 style="">Si buscas resultados distintos...no hagas siempre lo mismo</h2>
 			</div>
 			
 			<section id="nosotros" class="mb-5">
 				<br>
-				<h2 class="text-center mb-5" style="color:#136F63;">Sobre Nosotros</h2>
+				<h2 class="text-center mb-5" style="color:#136F63;">Sobre nosotros</h2>
 				<div class="row mx-3" >
 					<div class="col-12 col-sm-4">
-						<h3 style="color:#e0a500;">Hacemos realidad tu iniciativa.</h3>
+						<h3 style="color:#e0a500;">Hacemos realidad tu iniciativa</h3>
 						<br>
 						<h4>Aquí podrás publicar tu idea de negocio y los inversionistas te contactarán para apalancar tu proyecto.</h4>
 						<h3 style="color:#136F63; padding: 2rem;" >!Estamos contigo! </h3>
@@ -154,93 +154,101 @@
 			</section>
 			
 			<!-- Footer -->
-			<footer class="text-center text-lg-start bg-success text-dark bg-opacity-25">
-			  	
-			  <!-- Section: Links  -->
-			  <section class="pt-1">
-			    <div class="container text-center text-md-start mt-5">
-			      <!-- Grid row -->
-			      <div class="row mt-3">
-			        <!-- Grid column -->
-			        <div class="col-md-4 mb-md-0 mb-3">
+			<footer
+		class="text-center text-lg-start text-dark">
+
+		<!-- Section: Links  -->
+		<section class="pt-1">
+			<div class="container text-center text-md-start mt-5">
+				<!-- Grid row -->
+				<div class="row mt-3">
+					<!-- Grid column -->
+					<div class="col-md-4 mb-md-0 mb-3">
 						<!-- Links -->
 						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
-						<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de ideas de negocios y hacer realidad los sueños de muchas personas.
+						<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de
+							ideas de negocios y hacer realidad los sueños de muchas personas.
 						</p>
 					</div>
-			        <!-- Grid column -->
-			
-			        <!-- Grid column -->
-			        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-			          <!-- Links -->
-			          <h6 class="text-uppercase fw-bold mb-4">
-			            Links
-			          </h6>
-			          	<p>
-						<a href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing" class="text-reset">Términos y Condiciones</a>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4" >Links</h6>
+						<p>
+							<a href="https://drive.google.com/file/d/1Dz6CLyYfs9G990oZMf_u-GicHc2NuP78/view?usp=sharing" class="text-reset">Términos y Condiciones</a>
 						</p>
 						<p>
-						<a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing" class="text-reset">Tratamiento de datos</a>
+							<a href="https://drive.google.com/file/d/1w-7MCLHKbl-CUFzZomteCytgBucZc1xs/view?usp=sharing" class="text-reset">Tratamiento de datos</a>
 						</p>
-			          	<p>
-			            <a href="https://drive.google.com/file/d/1H9NSW305PlRXyN10OFVFEZgD5wMq0QHl/view?usp=sharing" class="text-reset">Preguntas Frecuentes</a>
-			          	</p>
-			          
-			        </div>
-			        <!-- Grid column -->
-			
-			        <!-- Grid column -->
-			        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-			          <!-- Links -->
-			          <h6 class="text-uppercase fw-bold mb-4">
-			            Contáctanos
-			          </h6>
-			          <p><i class="fa fa-map-marker me-3"></i>Bogotá D.C.</p>
-			          <p>
-			            <i class="fa fa-envelope me-3"></i>cumpliendosueno2021@outlook.com
-			          </p>
-			          <p><i class="fa fa-phone me-3"></i>(+57 1) 321 200 8765</p>
-			        </div>
-			        <!-- Grid column -->
-			      </div>
-			      <!-- Grid row -->
-			    </div>
-			  </section>
-			  <!-- Section: Links  -->
-			  
-			  <!-- Section: Social media -->
-			  <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
-			    <!-- Left -->
-			    <div class="me-5 d-none d-lg-block">
-			      <span>Síguenos por nuestras redes sociales:</span>
-			    </div>
-			    <!-- Left -->
-			
-			    <!-- Right -->
-			    <div id="socialMedia" class="row">
-			      
-			      <a href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal" class="col text-reset">
-			        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-			      </a>
-			      <a href="https://twitter.com/Cumpliendosue21" class="col text-reset">
-			        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-			      </a>
-			      <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg" class="col text-reset">
-			        <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
-			      </a>
-			    </div>
-			    <!-- Right -->
-			  </section>
-			  <!-- Section: Social media -->
-			  
-			  <!-- Copyright -->
-			  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-			    © 2021 Copyright
-			    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
-			  </div>
-			  <!-- Copyright -->
-			</footer>
-			<!-- Footer -->
+						<p>
+							<a
+								href="https://drive.google.com/file/d/1H9NSW305PlRXyN10OFVFEZgD5wMq0QHl/view?usp=sharing"
+								class="text-reset">Preguntas Frecuentes</a>
+						</p>
+
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
+						<p>
+							<i class="fa fa-map-marker me-3"></i>Bogotá D.C.
+						</p>
+						<p>
+							<i class="fa fa-envelope me-3"></i>cumpliendosueno2021@outlook.com
+						</p>
+						<p>
+							<i class="fa fa-phone me-3"></i>(+57 1) 321 200 8765
+						</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+		</section>
+		<!-- Section: Links  -->
+
+		<!-- Section: Social media -->
+		<section
+			class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
+			<!-- Left -->
+			<div class="me-5 d-none d-lg-block">
+				<span>Síguenos por nuestras redes sociales:</span>
+			</div>
+			<!-- Left -->
+
+			<!-- Right -->
+			<div id="socialMedia" class="row">
+
+				<a
+					href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal"
+					class="col text-reset"> <i
+					class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+				</a> <a href="https://twitter.com/Cumpliendosue21"
+					class="col text-reset"> <i class="fa fa-twitter fa-2x"
+					aria-hidden="true"></i>
+				</a> <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg"
+					class="col text-reset"> <i class="fa fa-youtube fa-2x"
+					aria-hidden="true"></i>
+				</a>
+			</div>
+			<!-- Right -->
+		</section>
+		<!-- Section: Social media -->
+
+		<!-- Copyright -->
+		<div class="text-center p-4"
+			style="background-color: rgba(0, 0, 0, 0.05);">
+			© 2021 Copyright: Cumpliendo Sueños <a class="text-reset fw-bold"
+				href="https://mdbootstrap.com/"></a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+	<!-- Footer -->
 			
 		</div>
 	</article>

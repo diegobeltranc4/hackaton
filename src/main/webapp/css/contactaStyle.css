@@ -56,3 +56,13 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+footer{
+	background-color: #28847E;
+	opacity: 0.8;
+	
+}
+
+footer span, p{
+	color: black;
+}

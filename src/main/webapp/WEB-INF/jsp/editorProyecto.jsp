@@ -252,7 +252,7 @@
 		<!-- Copyright -->
 		<div class="text-center p-4"
 			style="background-color: rgba(0, 0, 0, 0.05);">
-			© 2021 Copyright <a class="text-reset fw-bold"
+			© 2021 Copyright: Cumpliendo Sueños <a class="text-reset fw-bold"
 				href="https://mdbootstrap.com/"></a>
 		</div>
 		<!-- Copyright -->

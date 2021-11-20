@@ -87,3 +87,11 @@ label:hover ~ label {
 input[type="radio"]:checked ~ label {
   color: orange;
 }
+footer{
+	background-color: #1D8D84;
+	opacity: 0.8;
+	
+}
+footer span, p{
+	color: black;
+}
