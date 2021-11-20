@@ -128,7 +128,7 @@
   </div>
   <div class="columna Emprendedor">
     <div class="content">
-    <img src="img/mo.jpg" alt="Nature" style="width:100%">
+    <img src="img/fr.jpg" alt="Nature" style="width:100%">
       <h4>Bosque</h4>
       <p>Reforestacion..</p>
       <form class="form-inline">

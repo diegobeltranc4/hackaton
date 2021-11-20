@@ -153,7 +153,7 @@ h1 {
 /* Add padding BETWEEN each column */
 .fila,
 .fila > .columna {
-  padding: 2vh;
+  padding: 8px;
 }
 
 /* Create three equal columns that floats next to each other */
