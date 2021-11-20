@@ -22,12 +22,12 @@
 				<img alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170" height="170">
 			</a>
 			<button class="navbar-toggler ml-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   				<span class="navbar-toggler-icon"></span>
-   			</button>
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="nclientesmb-2 mb-lg-0">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a href="registroProyecto"><i class="fa fa-fw fa-suitcase fa-1x"></i> Iniproveedoresia tu proyecto</a>
+						<a href="registroProyecto"><i class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a>
 					</li>
 					<li class="nav-item">
 						<a href="#"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
@@ -37,8 +37,9 @@
 							<i class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
-							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+							<li><a class="dropdown-item" href="perfil">Perfil</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="registroUsuarios">Cerrar sesion</a></li>
 							<!-- <li><hr class="dropdown-divider"></li>
 							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
 						</ul>

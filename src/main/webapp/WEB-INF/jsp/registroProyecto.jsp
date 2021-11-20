@@ -157,7 +157,7 @@
 	</section>
 
 	<footer
-		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
+		class="text-center text-lg-start text-dark">
 
 		<!-- Section: Links  -->
 		<section class="pt-1">

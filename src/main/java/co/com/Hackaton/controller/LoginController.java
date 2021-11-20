@@ -28,7 +28,7 @@ public class LoginController {
 	public String loginForm(Model model) {
 		model.addAttribute("usuario",new Usuario());
 		
-		return "login";
+		return "contactanos";
 	}
 	
 	@PostMapping("login")
