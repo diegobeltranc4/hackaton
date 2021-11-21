@@ -61,7 +61,7 @@
 							<h2>Agro ciervo</h2>
 							<p class="title">Agro</p>
 							<p>jane@example.com</p>
-							<p><button class="button" style="width:auto">Leer más...</button></p>
+							<p><a class="button" style="width:auto">Leer más...</a></p>
 							 <form class="form-inline">
 								  <p class="clasificacion">
 								    <input id="radio1" type="radio" name="estrellas" value="5"><!--
@@ -87,7 +87,7 @@
 							<h2>Aprende en casa</h2>
 							<p class="title">Educación</p>
 							<p>mike@example.com</p>
-							<button class="button" style="width:auto">Leer más...</button>
+							<a class="button" style="width:auto">Leer más...</a>
 							<form class="form-inline">
 								  <p class="clasificacion">
 								    <input id="radio6" type="radio" name="estrellas" value="5"><!--
@@ -113,7 +113,7 @@
 							<h2>Bolsa al día.</h2>
 							<p class="title">Negocios, Finanzas</p>
 							<p>john@example.com</p>
-							<p><button class="button" style="width:auto">Leer más...</button></p>
+							<p><a class="button" style="width:auto">Leer más...</a></p>
 							<form class="form-inline">
 								  <p class="clasificacion">
 								    <input id="radio11" type="radio" name="estrellas" value="5"><!--
