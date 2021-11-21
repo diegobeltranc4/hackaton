@@ -143,12 +143,12 @@
 						<p>
 							<i class="fa fa-map-marker me-3"></i>Bogotá D.C.
 						</p>
-						<p>
+						<p><a href="soporte" class="text-reset">
 							<i class="fa fa-envelope me-3"></i>cumpliendosueno2021@outlook.com
-						</p>
-						<p>
+						</p></a>
+						<p><a href="tel:+34000000000" class="text-reset">
 							<i class="fa fa-phone me-3"></i>(+57 1) 321 200 8765
-						</p>
+						</p></a>
 					</div>
 					<!-- Grid column -->
 				</div>

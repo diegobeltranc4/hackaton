@@ -62,19 +62,27 @@
 		</div>
 	</header>
 	<div class="container my-5">
-		<div style="text-align: center" class="mb-5">
+		<div style="text-align: center">
 			<h2>Contáctanos</h2>
+			<p>Si tienes alguna duda o deseas hablar con nosotros, escríbenos
+				y con gusto nuestro equipo se comunicará contigo:</p>
 		</div>
 		<div class="row">
 			<div class="col-6">
 				<img src="img/ct.jpg" style="width: 100%">
 			</div>
 			<div class="col-6">
-				
 				<form action="contactanos" method="Post">
 					
 					<input type="text" id="fname" name="firstname" placeholder="Nombre Completo">
-					<textarea id="subject" name="subject" placeholder="Envíenos un mensaje y nos pondremos en contacto."
+					<input type="text" id="lname" name="lastname" placeholder="Correo electrónico..">
+					<select id="country" name="country">
+					<option selected disabled value="">Selecciona el país...</option>
+						<option value="colombia">Colombia</option>
+						<option value="canada">Canada</option>
+						<option value="usa">USA</option>
+					</select>
+					<textarea id="subject" name="subject" placeholder="Escribe tus dudas o inquietudes"
 						style="height: 170px"></textarea>
 					<button name="proyecto" id="proyecto" class="btn btn-warning btn-block regular-button">Enviar</button>
 				</form>
