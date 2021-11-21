@@ -18,7 +18,7 @@
 <body>
 	<header class="navbar navbar-expand-lg navbar-light bg-light" style="overflow: visible;">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand">
+			<a href="/" class="navbar-brand">
 				<img alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170" height="170">
 			</a>
 			<button class="navbar-toggler ml-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,9 +39,7 @@
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li><a class="dropdown-item" href="perfil">Perfil</a></li>
 							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="registroUsuarios">Cerrar sesion</a></li>
-							<!-- <li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
+							<li><a class="dropdown-item" href="login">Cerrar sesión</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -64,7 +62,7 @@
 		</div>
 	</article>
 	<footer
-		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
+		class="text-center text-lg-start text-dark ">
 
 		<!-- Section: Links  -->
 		<section class="pt-1">
@@ -75,7 +73,7 @@
 					<div class="col-md-4 mb-md-0 mb-3">
 						<!-- Links -->
 						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
-						<p align="left">Busca conectar emprendedores con socios e sinversionistas para que se puedan poner en marcha toda clase de
+						<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de
 							ideas de negocios y hacer realidad los sueños de muchas personas.
 						</p>
 					</div>
@@ -164,9 +162,12 @@
 		]*/
 		let categorias = ["Arte","Artesanias","Cine y video","Comida","Comics","Danza","Diseño","Fotografia","Juegos","Moda","Musica","Periodismo","Publicaciones","Teatro","Tecnologia", "Agro", "Educacion"]
 		let projects = [
-			{id:1, imagen:"img/p1.jpg", nombre:"Agro Ciervo", categoria:"Agro", correoUsuario:"mike@example.com", user:"mike", descripcion:"Tecnicas especializadas en crianza..."},
-			{id:2, imagen:"img/p2.jpg", nombre:"Aprende En Casa", categoria:"Educacion", correoUsuario:"mike@example.com", user:"mike", descripcion:"Tecnicas especializadas en crianza..." },
-			{id:3, imagen:"img/p3.jpg", nombre:"Agro Ciervo", categoria:"Agro", correoUsuario:"mike@example.com", user:"mike", descripcion:"Tecnicas especializadas en crianza..."},
+			{id:1, imagen:"img/p1.jpg", nombre:"Agro Ciervo", categoria:"Agro", correoUsuario:"mike@example.com", user:"mike"},
+			{id:2, imagen:"img/p2.jpg", nombre:"Aprende en casa", categoria:"Educación", correoUsuario:"mike@example.com", user:"mike"},
+			{id:3, imagen:"img/p3.jpg", nombre:"Agro Ciervo", categoria:"Agro", correoUsuario:"mike@example.com", user:"mike"},
+			{id:1, imagen:"img/p2.jpg", nombre:"Aprende en casa", categoria:"Agro", correoUsuario:"mike@example.com", user:"mike"},
+			{id:2, imagen:"img/p3.jpg", nombre:"Bolsa al día", categoria:"Educación", correoUsuario:"mike@example.com", user:"mike"},
+			
 		]
 	</script>
 	<script src="../js/filtro.js"></script>

@@ -17,7 +17,7 @@
 <body>
 	<header class="navbar navbar-expand-lg navbar-light bg-light" style="overflow: visible;">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand">
+			<a href="/" class="navbar-brand">
 				<img alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170" height="170">
 			</a>
 			<button class="navbar-toggler ml-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,7 +134,7 @@
 			</div>
 			
 			<div id="message" style="height:20vh; background-color: #e5ebe9; font-size:2vh; margin-top: 20px; display: flex; align-items: center; justify-content:center">
-				<h2 style="">Si buscas resultados distintos...no hagas siempre lo mismo</h2>
+				<h2 style="">Si buscas resultados distintos... no hagas siempre lo mismo</h2>
 			</div>
 			
 			<section id="nosotros" class="mb-5">

@@ -3,8 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../img/.svg) no-repeat center ;
-  background-size: cover;
+  background: url("https://i.ebayimg.com/thumbs/images/g/67QAAOSwhBNdxo5E/s-l300.jpg") repeat center top;
   font-family: sans-serif;
   height: 100%;
   box-sizing: border-box;

@@ -5,7 +5,7 @@
 <head>
 <title>Perfil</title>
 
-<link rel="stylesheet" href="css/perfilStyle.css">
+<link rel="stylesheet" href="../css/perfilStyle.css">
 <meta charset="UTF8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Menu</title>
@@ -31,7 +31,7 @@
 	<header class="navbar navbar-expand-lg navbar-light bg-light"
 		style="overflow: visible;">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"> <img
+			<a href="/" class="navbar-brand"> <img
 				alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170"
 				height="170">
 			</a>
@@ -43,9 +43,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a href=clientes><i
-							class="fa fa-fw fa-suitcase fa-1x"></i> Mis Proyectos</a></li>
-					<li class="nav-item"><a href="proveedores"><i
+					<li class="nav-item"><a href="registroProyecto"><i
+							class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a></li>
+					<li class="nav-item"><a href="buscador"><i
 							class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a></li>
 					<li class="nav-item ">
 						<div class=" alin2 dpgl">
@@ -286,7 +286,7 @@
 
 	<!-- Footer -->
 	<footer
-		class="text-center text-lg-start bg-success text-dark bg-opacity-25">
+		class="text-center text-lg-start text-dark">
 
 		<!-- Section: Links  -->
 		<section class="pt-1">

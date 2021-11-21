@@ -21,12 +21,16 @@
 <link rel="stylesheet" href="../css/contactaStyle.css">
 <link rel="stylesheet" href="../css/navStyleCp.css">
 <link rel="stylesheet" href="../css/footerStyleCp.css">
+<style>
+	body {    background: url("https://i.ebayimg.com/thumbs/images/g/67QAAOSwhBNdxo5E/s-l300.jpg") repeat center top;
+}
+</style>
 </head>
 <body>
 	<header class="navbar navbar-expand-lg navbar-light bg-light"
 		style="overflow: visible;">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"> <img
+			<a href="/" class="navbar-brand"> <img
 				alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170"
 				height="170">
 			</a>
@@ -38,9 +42,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a href=clientes><i
+					<li class="nav-item"><a href="registroProyecto"><i
 							class="fa fa-fw fa-suitcase fa-1x"></i> Inicia tu proyecto</a></li>
-					<li class="nav-item"><a href="proveedores"><i
+					<li class="nav-item"><a href="buscador"><i
 							class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a></li>
 					<li class="nav-item dropdown"><a class=" dropdown-toggle"
 						href="#" id="navbarDropdown" role="button"
@@ -48,8 +52,8 @@
 							class="fa fa-fw fa-user-circle-o fa-1x"></i> Usuario
 					</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
-							<li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+							<li><a class="dropdown-item" href="login">Iniciar Sesión</a></li>
+							<li><a class="dropdown-item" href="registroUsuarios">Crear cuenta</a></li>
 							<!-- <li><hr class="dropdown-divider"></li>
 							<li><a class="dropdown-item" href="#">Something else here</a></li> -->
 						</ul></li>
@@ -78,7 +82,7 @@
 						<option value="canada">Canada</option>
 						<option value="usa">USA</option>
 					</select>
-					<textarea id="subject" name="subject" placeholder="Escribe tus dudads o inquietudes"
+					<textarea id="subject" name="subject" placeholder="Escribe tus dudas o inquietudes"
 						style="height: 170px"></textarea>
 					<button name="proyecto" id="proyecto" class="btn btn-warning btn-block regular-button">Enviar</button>
 				</form>

@@ -11,6 +11,7 @@
 	rel="stylesheet"
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
+<link rel="shortcut icon" type="image/png" href="img/lg2.png">
 <script
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -24,8 +25,8 @@
 <link rel="stylesheet" href="../css/footerStyleCp.css">
 <link rel="stylesheet" href="../css/navStyleCp.css">
 <link rel="stylesheet" href="../css/RegisterCp.css">
-<link rel="stylesheet" href="../css/detalleStyle.css">
-<link rel="stylesheet" href="../css/perfilStyle.css">
+<!-- <link rel="stylesheet" href="../css/detalleStyle.css"> -->
+<!-- <link rel="stylesheet" href="../css/perfilStyle.css"> -->
 
 
 
@@ -43,12 +44,12 @@
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 					<li class="nav-item">
-						<a href=clientes><i class="fa fa-fw fa-suitcase fa-1x"></i> Mis Proyectos</a>
+						<a href="perfil"><i class="fa fa-fw fa-suitcase fa-1x"></i> Mis Proyectos</a>
 					</li>
 					<li class="nav-item">
-						<a href="proveedores"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
+						<a href="buscador"><i class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a>
 					</li>
-					<li class="nav-item ">
+					<li class="nav-item" >
 						<div class=" alin2 dpgl">
 						    <button class="dropbtn"><img class="avatar" alt="" src="img/p2.jpg">
 						      ${user} <i class="fa fa-caret-down"> </i>		
@@ -69,7 +70,7 @@
 						  </div> 
 					</li>
 					<li class="nav-item">
-						<a href="login"><i class="fa fa-fw  fa-power-off"></i> Cerrar sesión</a>
+						<a href="/"><i class="fa fa-fw  fa-power-off"></i> Cerrar sesión</a>
 					</li>
 				</ul>
 			</div>

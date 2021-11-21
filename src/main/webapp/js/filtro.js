@@ -21,9 +21,8 @@ const renderList = () => {
                 <div class="card-body">
                     <h2>${element.nombre}</h2>
                     <p class="title">${element.categoria}</p>
-                    <p>${element.descripcion}</p>
                     <p>${element.correoUsuario}</p>
-                    <p><button class="button" style="width:auto" href="#/${element.id}">Leer más.</button></p>
+                    <p><a class="button" style="width:auto" href="detalleProyecto">Leer más...</a></p>
                 </div>		
             </div>
         </div>`
@@ -46,9 +45,8 @@ const filtrarProyectos = (categorie) => {
                     <div class="card-body">
                         <h2>${element.nombre}</h2>
                         <p class="title">${element.categoria}</p>
-                        <p>${element.descripcion}</p>
                         <p>${element.correoUsuario}</p>
-                        <p><button class="button" style="width:auto" href="#/${element.id}">Leer más.</button></p>
+                        <p><button class="button" style="width:auto" href="detalleProyecto">Leer más...</button></p>
                     </div>		
                 </div>
             </div>`

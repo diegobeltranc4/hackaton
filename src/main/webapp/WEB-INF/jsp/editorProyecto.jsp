@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF8">
 <title>Editor Proyecto</title>
+<link rel="shortcut icon" type="image/png" href="img/lg2.png">
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -29,7 +30,7 @@
 	<header class="navbar navbar-expand-lg navbar-light bg-light"
 		style="overflow: visible;">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"> <img
+			<a href="/" class="navbar-brand"> <img
 				alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170"
 				height="170">
 			</a>

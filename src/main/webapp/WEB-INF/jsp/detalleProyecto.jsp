@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/perfilStyle.css">
 <link rel="stylesheet" href="css/detalleStyle.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/tarjeta.css">
 <link 
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -27,7 +28,7 @@
 	<header class="navbar navbar-expand-lg navbar-light bg-light"
 		style="overflow: visible;">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"> <img
+			<a href="/" class="navbar-brand"> <img
 				alt="Logo Cumpliendo Sueños" src="img/lg3.png" width="170"
 				height="170">
 			</a>
@@ -39,9 +40,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a href=clientes><i
+					<li class="nav-item"><a href="perfil"><i
 							class="fa fa-fw fa-suitcase fa-1x"></i> Mis Proyectos</a></li>
-					<li class="nav-item"><a href="proveedores"><i
+					<li class="nav-item"><a href="buscador"><i
 							class="fa fa-fw fa-search fa-1x"></i> Buscar Proyectos</a></li>
 					<li class="nav-item ">
 						<div class=" alin2 dpgl">
@@ -62,8 +63,8 @@
 							</div>
 						</div>
 					</li>
-					<li class="nav-item"><a href="login"><i
-							class="fa fa-fw  fa-power-off"></i> Cerar sesion</a></li>
+					<li class="nav-item"><a href="/"><i
+							class="fa fa-fw  fa-power-off"></i> Cerrar sesión</a></li>
 				</ul>
 			</div>
 		</div>
@@ -75,10 +76,33 @@
 			<div class="col">
 				<h2>Aprende en casa</h2>
 				<p class="title">Educación</p>
-				<p>Estrategias de aprendizaje autodidacta en casa...</p>
 				<p>mike@example.com</p>
+				<h5>Acerca del proyecto</h5>
 				<p>
-					<button class="button">Invertir</button>
+					<div class="blog-card spring-fever">
+					  <div class="title-content">
+					    <h3><a href="#">10 inspiring photos</a></h3>
+					    <div class="intro"> <a href="#">Inspiration</a> </div>
+					  </div>
+					  <div class="card-info">
+					    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+					    <a href="#">Read Article<span class="licon icon-arr icon-black"></span></a>
+					  </div>
+					  <div class="utility-info">
+					    <ul class="utility-list">
+					      <li><span class="licon icon-like"></span><a href="#">768</a></li>
+					      <li><span class="licon icon-com"></span><a href="#">12</a></li>
+					      <li><span class="licon icon-dat"></span>03 jun 2021</li>
+					      <li><span class="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
+					    </ul>
+					  </div>
+					  <div class="gradient-overlay"></div>
+					  <div class="color-overlay"></div>
+					</div><!-- /.blog-card -->
+				</p>
+				
+				<p>
+					<button class="button" onclick="location.href='contactanos';">Invertir</button>
 				</p>
 			</div>
 
